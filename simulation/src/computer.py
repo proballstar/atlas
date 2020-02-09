@@ -116,7 +116,7 @@ class Computer:
     def accept_uplink(self):
         try:
             uplink_file = open(os.path.join(
-                config.BASE_DIR, "basagc/", "uplink.txt"), "r")
+                config.BASE_DIR, "src/", "uplink.txt"), "r")
         except FileNotFoundError:
             self.program_alarm(501)
             return
