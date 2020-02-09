@@ -15,3 +15,6 @@ We chose to create Honeycomb to be able to assist astronauts while in space, not
 5. Success!
 
 **NOTE**: If any of these steps don't work, please contact Firebolt IT Support through https://firebolt.ai/support/it/honeycomb/emergency/.
+
+### General Public
+1. Sorry, we don't allow the general public to use Honeycomb as you can't connect to the Firebolt portal. You may be allowed to use it if you are connected to `Firebolt` WiFi.
