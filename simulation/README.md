@@ -23,6 +23,7 @@ mkdir ../logs/ && touch ../logs/guidance.log
 ```
 
 - In the simulator run the following command:
+
 1. Click "VERB".
 
 2. Then, enter 37.
