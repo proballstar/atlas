@@ -30,7 +30,7 @@ from src import config
 from src import gui, computer
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='FSA: AGC for FSA')
+    parser = argparse.ArgumentParser(description='Atlas Simulator')
     parser.add_argument('-d','--debug', help='Set debug mode on', required=False, action='store_true')
     args = parser.parse_args()
     if args.debug:
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     
     ui = gui.GUI(main_window)
     computer = computer.Computer(ui)
-    main_window.setWindowTitle('Firebolt Space Agency: AGC for FSA')
+    main_window.setWindowTitle('Atlas Simulator')
     main_window.show()
 
     sys.exit(app.exec_())
