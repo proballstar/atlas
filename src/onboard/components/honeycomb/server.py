@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect
-
+import skyforce
 app = Flask(__name__)
 
 @app.route('/')
@@ -18,6 +18,9 @@ def rocket():
 @app.route('/support')
 def support():
     return render_template("support.html")
+@app.route
+def medical():
+    return render_template("Medical.html")
 @app.route('/guidance')
 def guidance():
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system
