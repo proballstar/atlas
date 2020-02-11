@@ -6,7 +6,7 @@
 #
 #
 import skyforce
-import templates
+#use for components 
 
 # Array to store the components data
 components_data = ['Cooling Cmpt']
