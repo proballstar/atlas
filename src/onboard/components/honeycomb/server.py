@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return redirect('/homepage')
+   return render_template("rocket.html")
 @app.route('/homepage')
 def homepage():
     c1 = 1
