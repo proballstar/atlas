@@ -25,5 +25,8 @@ def medical():
 def guidance():
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system
     return render_template("migrated/guidance.html")
+@app.route('/games')
+def games_home():
+    return render_template("games/home.html")
 
 app.run()
