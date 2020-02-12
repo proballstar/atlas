@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect
 import skyforce
 app = Flask(__name__)
-
+from components import 
 @app.route('/')
 def home():
    return render_template("rocket.html")

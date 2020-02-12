@@ -10,14 +10,14 @@ import skyforce
 
 # Array to store the components data
 #Components
-
-c1 = "Navigation"
-c2 = "Guidiance"
-c3 = "Cooling "
-c4 = "Heater"
-c5 = "Computer"
-c6 = "Honeycomb"
-c7 = "Engine"
-c8 = "Thruster"
-c9 = "Communications "
+def var(): 
+    c1 = "Navigation"
+    c2 = "Guidiance"
+    c3 = "Cooling "
+    c4 = "Heater"
+    c5 = "Computer"
+    c6 = "Honeycomb"
+    c7 = "Engine"
+    c8 = "Thruster"
+    c9 = "Communications "
 
