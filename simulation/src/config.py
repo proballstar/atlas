@@ -25,7 +25,7 @@ from collections import OrderedDict
 
 DEBUG = False
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-PROGRAM_NAME = "Saturn X"
+PROGRAM_NAME = "Atlas"
 VERSION = "1.0.0"
 LICENCE_FILE = os.path.join(BASE_DIR, "licence")
 IMAGES_DIR = os.path.join(BASE_DIR, "assets/")
@@ -94,13 +94,13 @@ for key, value in TELEMACHUS_BODY_IDS.items():
     value = value[2:]
     OCTAL_BODY_IDS[value] = key
 OCTAL_BODY_NAMES = {value: key for key, value in OCTAL_BODY_IDS.items()}
-PROGRAM_DESCRIPTION = "This is a reimplementation Apollo Guidance Computer (AGC) for the Firebolt Space Program."
+PROGRAM_DESCRIPTION = "This is a reimplementation Apollo Guidance Computer (AGC) for Project Atlas."
 with open(LICENCE_FILE) as f:
     LICENCE = f.readlines()
 LICENCE = "".join(LICENCE)
 SHORT_LICENCE = "Saturn X is under the MIT License, which means you can redistribute it free of any charge."
 
-COPYRIGHT = "(C) 2019 Fireboly, Inc. & Firebolt Space Agency"
-WEBSITE = "https://github.com/firebolt-ai/saturn-x/"
+COPYRIGHT = "(C) 2019 Firebolt, Inc. & Firebolt Space Agency"
+WEBSITE = "https://bitbucket.org/aaronhma/atlas/"
 DEVELOPERS = "Firebolt, Inc. & Firebolt Space Agency"
 ICON = os.path.join(BASE_DIR, "icon.png")
