@@ -1,16 +1,22 @@
 from flask import Flask, render_template, redirect
 import skyforce
 app = Flask(__name__)
-from components import 
+from components import var
 @app.route('/')
 def home():
    return render_template("rocket.html")
 @app.route('/homepage')
 def homepage():
-    c1 = 1
-    c2 = 2
-    c3 = 3 
-    return render_template("home.html", c1 = c1, c2 = c2, c3 = c3)
+    c1 = "Navigation"
+    c2 = "Guidiance"
+    c3 = "Cooling "
+    c4 = "Heater"
+    c5 = "Computer"
+    c6 = "Honeycomb"
+    c7 = "Engine"
+    c8 = "Thruster"
+    c9 = "Communications "
+    return render_template("home.html",c1 = c1,c2 = c2, c3 = c3, c4 = c4,c5= c5,c6=c6,c7=c7,c8=c8,c9=c9)
 @app.route('/rocket')
 def rocket():
  
