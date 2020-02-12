@@ -1,0 +1,12 @@
+# guidance.service
+# [service: guidance], [project: atlas]
+# Copyright 2020 - Present Aaron Ma & Rohan Fernandes. All Rights Reserved.
+if guidance
+    then
+        !sudo su --pwd
+        !atlas service start guidance --service=guidance.service
+        !atlas service run guidance
+else
+    then
+        !atlas service error guidance
+end
