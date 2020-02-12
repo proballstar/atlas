@@ -1,143 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<style>
-.onoffswitch {
-    position: relative; width: 90px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
-}
-.onoffswitch-checkbox {
-    display: none;
-}
-.onoffswitch-label {
-    display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #999999; border-radius: 20px;
-}
-.onoffswitch-inner {
-    display: block; width: 200%; margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
-}
-.onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-    box-sizing: border-box;
-}
-.onoffswitch-inner:before {
-    content: "ON";
-    padding-left: 10px;
-    background-color: #34A7C1; color: #FFFFFF;
-}
-.onoffswitch-inner:after {
-    content: "OFF";
-    padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
-    text-align: right;
-}
-.onoffswitch-switch {
-    display: block; width: 18px; margin: 6px;
-    background: #FFFFFF;
-    position: absolute; top: 0; bottom: 0;
-    right: 56px;
-    border: 2px solid #999999; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-    margin-left: 0;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
-}
-}
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+    .onoffswitch {
+      position: relative;
+      width: 90px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .onoffswitch-checkbox {
+      display: none;
+    }
+
+    .onoffswitch-label {
+      display: block;
+      overflow: hidden;
+      cursor: pointer;
+      border: 2px solid #999999;
+      border-radius: 20px;
+    }
+
+    .onoffswitch-inner {
+      display: block;
+      width: 200%;
+      margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+    }
+
+    .onoffswitch-inner:before,
+    .onoffswitch-inner:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 30px;
+      padding: 0;
+      line-height: 30px;
+      font-size: 14px;
+      color: white;
+      font-family: Trebuchet, Arial, sans-serif;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+
+    .onoffswitch-inner:before {
+      content: "ON";
+      padding-left: 10px;
+      background-color: #34A7C1;
+      color: #FFFFFF;
+    }
+
+    .onoffswitch-inner:after {
+      content: "OFF";
+      padding-right: 10px;
+      background-color: #EEEEEE;
+      color: #999999;
+      text-align: right;
+    }
+
+    .onoffswitch-switch {
+      display: block;
+      width: 18px;
+      margin: 6px;
+      background: #FFFFFF;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 56px;
+      border: 2px solid #999999;
+      border-radius: 20px;
+      transition: all 0.3s ease-in 0s;
+    }
+
+    .onoffswitch-checkbox:checked,
+    .onoffswitch-label .onoffswitch-inner {
+      margin-left: 0;
+    }
+
+    .onoffswitch-checkbox:checked,
+    .onoffswitch-label .onoffswitch-switch {
+      right: 0px;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Space Rocket: Atlas </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/rocket">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/homepage ">Components </a>
-            </li>
-            <li class="nav-item">
-                <!-- Add Medical Link-->
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Guidiance</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      
-    <h1>home</h1>
-    <p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Space Rocket: Atlas </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/rocket">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/homepage ">Components </a>
+        </li>
+        <li class="nav-item">
+          <!-- Add Medical Link-->
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Guidiance</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <h1>home</h1>
+  <p>
     Here is the data:
 
-<table>
-  <p>hi </p>
-  <p>hi</p>
-<div class="onoffswitch">
-  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-  <label class="onoffswitch-label" for="myonoffswitch">
-    <span class="onoffswitch-inner"></span>
-    <span class="onoffswitch-switch"></span>
-  </label>
-  <div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchx" checked>
-    <label class="onoffswitch-label" for="myonoffswitchx">
-      <span class="onoffswitch-inner"></span>
-      <span class="onoffswitch-switch"></span>
-    </label>
-  </div>
-  <div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchz" checked>
-    <label class="onoffswitch-label" for="myonoffswitchz">
-      <span class="onoffswitch-inner"></span>
-      <span class="onoffswitch-switch"></span>
-    </label>
-    <p>hi</p>
-  </div>
-</div>
+    <table>
+      <p>hi </p>
+      <p>hi</p>
+      <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+        <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"></span>
+        </label>
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchx" checked>
+          <label class="onoffswitch-label" for="myonoffswitchx">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+          </label>
+        </div>
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchz" checked>
+          <label class="onoffswitch-label" for="myonoffswitchz">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+          </label>
+          <p>hi</p>
+        </div>
+      </div>
 
 
 
 
 
-</table>
+    </table>
 
 
-<div class="onoffswitch">
-  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchy" checked>
-  <label class="onoffswitch-label" for="myonoffswitchy">
-    <span class="onoffswitch-inner"></span>
-    <span class="onoffswitch-switch"></span>
-  </label>
-</div>
-    
+    <div class="onoffswitch">
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitchy" checked>
+      <label class="onoffswitch-label" for="myonoffswitchy">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+      </label>
+    </div>
+
     <br>
     <br>
     <hr>
     <br>
     <br>
-    <span>Official Build v20.2.10. &copy; Copyright 2017 - 2020 Firebolt, Inc, &copy; Copyright 2017 - 2020 Firebolt Space Agency, &copy; Copyright 2020 - Present Aaron Ma & Rohan Fernandes.</span>
-    </p>
-    
-    
+    <span>Official Build v20.2.10. &copy; Copyright 2017 - 2020 Firebolt, Inc, &copy; Copyright 2017 - 2020 Firebolt
+      Space Agency, &copy; Copyright 2020 - Present Aaron Ma & Rohan Fernandes.</span>
+  </p>
+
+
 </body>
+
 </html>
-
-
-
