@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect
 import skyforce
 app = Flask(__name__)
 from components import var
+import sqlite3
 @app.route('/')
 def home():
    return render_template("rocket.html")
@@ -26,7 +27,15 @@ def support():
     return render_template("support.html")
 @app.route
 def medical():
-    return render_template("Medical.html")
+    if request.method == "GET":
+        # @NOTE what to do when you are using GET including adding variables
+         return render_template("Medical.html")
+    elif request.method == "POST":
+        # @NOTE this is what happens when people submit the form 
+        # @NOTE lets use python for the medical info
+
+    else:
+        print(EnvironmentError"::")
 @app.route('/guidance')
 def guidance():
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system
