@@ -3,6 +3,27 @@ import skyforce
 app = Flask(__name__)
 from components import var
 import sqlite3
+
+
+
+# AARON CAN YOU MAKE A FUNCTION in status_code
+def status_code():
+    pass
+# Aaron replace pass with a function that gets the status quo (Ex. 404, 200,400) call the status code, status_code 
+# for get_err, make a function that if error shows it with parsing and set a variable called err with it , replace path with it
+def get_err():
+    pass
+#@NOTE ROHAN ONLY for check_status def ,AARON for status_code
+def check_status(err):
+    status_code = int(status_code)
+    if status_code == 404:
+        print(err)
+    # OTHER STATUS CODE
+    elif status_code == 200:
+        pass
+
+
+
 @app.route('/')
 def home():
    return render_template("rocket.html")
@@ -32,13 +53,13 @@ def medical():
          return render_template("Medical.html")
     elif request.method == "POST":
         # @NOTE this is what happens when people submit the form 
-        # @NOTE lets use python for the medical info
+        # @NOTE lets use python for the medical info ( log the info)
 
     else:
         print(EnvironmentError"::")
 @app.route('/guidance')
 def guidance():
-    # @NOTE: keep this here to tell astronauts guidance was migrated to another system
+    # @NOTE: keep this here to tell astronauts guidance was migrated to another system APPROVED
     return render_template("migrated/guidance.html")
 @app.route('/games')
 def games_home():
