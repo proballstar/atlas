@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 
 import skyforce
 import turtle
+=======
+#PROJECT PTURTLE -- ROHAN FERNANDES -- TURTLE FUNCTIONS ONLY
+#@NOTE: ONLY USE IF HAVE CONSENT FROM ROHAN FERNANDES 
+#V 0.0.1 PTURTLE -- MODIFY VERSION FOR PROJECT ATLAS: FAST, FUEL EFFICIENT, THE OFFICAL SPACE ROCKET OF THE FIREBOLT SPACE AGENCY (FSA)
+from turtle import * #getting all functions from Turtle
+import skyforce #import skyforce that is in shared folder
+    
+>>>>>>> 948ba6a34defa358d1ac2803da7f6092c5af95aa
 
 def init():
     hi = turtle.Pen()
@@ -9,6 +18,8 @@ def goto(x,y):
     hi.penup()
     hi.goto(x,y)
     hi.pendown()
+def goto_line(x,y):
+    hi.goto(x,y)
 def square(s):
     for i in range(4):
         hi.forward(s)
@@ -52,7 +63,5 @@ def f():
     up(5)
     goto(7,7)
 
-if __name__ == "__main__":
-    init()
-    # @TODO: update
-    # @TODO: Aaron how do update 
+    # @NOTE: This file is only for turtle functions, if wanted copy into directory and import into file to use for GUI Purpose, or use for using the function IN SEPERATE FILE. THIS FILE IS ONLY MEANT FOR 
+    # @NOTE: TURTLE FUNCTION DEFINITIONS NOTHING ELSE
