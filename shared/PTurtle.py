@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-
-import skyforce
-import turtle
-=======
 #PROJECT PTURTLE -- ROHAN FERNANDES -- TURTLE FUNCTIONS ONLY
 #@NOTE: ONLY USE IF HAVE CONSENT FROM ROHAN FERNANDES 
 #V 0.0.1 PTURTLE -- MODIFY VERSION FOR PROJECT ATLAS: FAST, FUEL EFFICIENT, THE OFFICAL SPACE ROCKET OF THE FIREBOLT SPACE AGENCY (FSA)
 from turtle import * #getting all functions from Turtle
 import skyforce #import skyforce that is in shared folder
     
->>>>>>> 948ba6a34defa358d1ac2803da7f6092c5af95aa
 
 def init():
     hi = turtle.Pen()
