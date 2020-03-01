@@ -51,7 +51,7 @@ def random(min_num, max_num):
 
 def floor(num):
     new_num = math.floor(num)
-    print("rf", new_num)
+    print(new_num)
     return new_num
 
 
