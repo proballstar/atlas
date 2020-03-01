@@ -1,9 +1,10 @@
-from turtle import *
+
 import skyforce
-    
+import turtle
 
 def init():
     hi = turtle.Pen()
+init()
 def goto(x,y):
     hi.penup()
     hi.goto(x,y)
