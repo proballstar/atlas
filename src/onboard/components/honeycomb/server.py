@@ -13,7 +13,7 @@ def status_code():
 # for get_err, make a function that if error shows it with parsing and set a variable called err with it , replace path with it
 def get_err():
     pass
-#@TODO ROHAN ONLY for check_status def ,AARON for status_code
+#@NOTE  ROHAN ONLY for check_status def ,AARON for status_code
 def check_status(err):
     status_code = int(status_code)
     if status_code == 404:
@@ -21,7 +21,8 @@ def check_status(err):
     # OTHER STATUS CODE
     elif status_code == 200:
         pass
-
+        return 
+    
 
 
 @app.route('/')
@@ -44,7 +45,7 @@ def rocket():
  
     return render_template("rocket.html")
 @app.route('/support')
-def support():
+def support(): 
     return render_template("support.html")
 @app.route
 def medical():
