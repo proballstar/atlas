@@ -4,4 +4,4 @@ This is Atlas. Fast. Fuel efficient. The official rocket of Firebolt Space Agenc
 
 - Aaron Ma & Rohan Fernandes
 ```
-# Combined with Projects: Skyforce, PTurtle and more
+**Combined with Projects: Skyforce, PTurtle and more**
