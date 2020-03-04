@@ -5,7 +5,7 @@ rohan = turtle.Pen()
 num = random.randint(1,100)
 colorlist = ["red","orange","yellow","green","blue","purple"]
 def forward(num):
-    pass forward(num,colorlist):
+    forward(num,colorlist)
     rohan.forward(num)
     rohan.pencolor(random.choice(colorlist)
 
