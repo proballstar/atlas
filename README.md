@@ -4,4 +4,4 @@
 
 - Aaron Ma & Rohan Fernandes
 ```
-<img src="./svg/build/passing.svg" alt="Build Passing" />
+**Combined with Projects: Skyforce, PTurtle and more**
