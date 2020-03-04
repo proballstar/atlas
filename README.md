@@ -4,6 +4,13 @@
 
 - Aaron Ma & Rohan Fernandes
 ```
-![Build Passing](./svg/build/passing.svg)
 
-**Combined with Projects: Skyforce, PTurtle and more**
+## Atlas Status
+| Component        | Status           | Submitted By  |  Remarks  |
+| ------------- |-------------| -----| ---- |
+| Stage 1      | ![Build Passing](./svg/build/passing.svg) | aaronhma | Passed. |
+| Stage 2      | ![Build Running](./svg/build/running.svg)      |   aaronhma | Building... |
+| Stage 3 | ![Build Failing](./svg/build/failing.svg)      |    aaronhma | Failed. |
+| Honeycomb | ![Build Running](./svg/build/running.svg) | rohan | Building... |
+
+**Combined with Projects: Skyforce, PTurtle and more!**
