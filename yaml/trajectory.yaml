@@ -1,0 +1,6 @@
+# trajectory.yaml
+atlas:
+  trajectory:
+    - destination: ${DESTINATION_TODO}
+    - coefficients: ${}
+    - variables: ${}

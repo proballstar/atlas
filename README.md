@@ -19,4 +19,4 @@
 | Stage 3      | ![Build Failing](./svg/build/failing.svg)      |    aaronhma | Failed. |
 | Honeycomb    | ![Build Running](./svg/build/running.svg) | rohan | Building... |
 
-**Combined with Projects: Skyforce, PTurtle and more!**
+**Combined with mini-projects: Skyforce, PTurtle and more!**

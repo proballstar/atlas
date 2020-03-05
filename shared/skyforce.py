@@ -35,11 +35,11 @@ def timer(time):
     - input:
         - time of counting down
     """
-    timer = int(timer)        # convert timer to an integer
-    for i in range(time):     # for loop
-        print(time)           # print
+    timer = int(timer)         # convert timer to an integer
+    for i in range(timer):     # for loop
+        print(timer)           # print
         current_time.sleep(1)  # wait
-        time = time - 1       # countdown
+        timer -= 1             # countdown
 
 
 def random(min_num, max_num):
