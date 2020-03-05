@@ -13,4 +13,7 @@
 | Stage 3      | ![Build Failing](./svg/build/failing.svg)      |    aaronhma | Failed. |
 | Honeycomb    | ![Build Running](./svg/build/running.svg) | rohan | Building... |
 
+## Atlas Info
+![Loading...](./svg/loader/material.svg) Loading...
+
 **Combined with Projects: Skyforce, PTurtle and more!**
