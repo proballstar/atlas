@@ -1,6 +1,7 @@
 # 🚀 Atlas
 ```
 🚀 This is Atlas. Fast. Fuel efficient. The official rocket of Firebolt Space Agency.
+We chose to build Atlas not because it is easy, but because it is hard.
 
 - Aaron Ma & Rohan Fernandes
 ```
