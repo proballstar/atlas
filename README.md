@@ -18,6 +18,6 @@ We chose to build Atlas not because it is easy, but because it is hard.
 | Stage 1      | ![Build Passing](./svg/build/passing.svg) | aaronhma | Passed. |
 | Stage 2      | ![Build Running](./svg/build/running.svg)      |   aaronhma | Building... |
 | Stage 3      | ![Build Failing](./svg/build/failing.svg)      |    aaronhma | Failed. |
-| Honeycomb    | ![Build Running](./svg/build/running.svg) | rohan | Building... |
+| Honeycomb    | ![Build Running](./svg/build/running.svg) | rohan "jacob skyforce" fernandes | Building... |
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
