@@ -261,3 +261,11 @@ def pyrange(n):
         zen = zen + 1
         #Do Stuff
     print("finished")
+def err_raise(error,notes):
+    if err_raise == "ValueError":
+        raise ValueError(notes)
+    elif err_raise == "TypeError":
+        raise TypeError(notes)
+    elif err_raise == "NoneTypeError":
+        raise NoneTypeError(Notes)
+        
