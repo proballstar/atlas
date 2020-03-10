@@ -252,6 +252,12 @@ def progress_bar(t):
     print("\n")
 
 
-#Debugging
-#Aaron
-#I need help how to use Unittest
+def pyrange(n):
+    """
+    Pure Python Implementation and Use to Understand Range and using it. Alternative to XRange but does not allow action in the for loop 
+    """
+    zen = 0
+    while zen < 0:
+        zen = zen + 1
+        #Do Stuff
+    print("finished")
