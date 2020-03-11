@@ -1,6 +1,6 @@
 # guidance.service
 # [service: guidance], [project: atlas]
-# Copyright 2020 - Present Aaron Ma & Rohan Fernandes. All Rights Reserved.
+# Copyright 2020 - Present Aaron Ma. All Rights Reserved.
 if guidance
     then
         !sudo su --pwd
