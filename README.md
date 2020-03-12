@@ -27,6 +27,38 @@ Please check your assignments and grades in ASSIGNMENTS.md
 
 ## Getting Started Guide
 @TODO(rohan): write docs
+**The Docs: For Testing**
+
+To start: Go to the HoneyComb Folder 
+
+Execute Command: **Python** Server.py 
+
+This starts the Server
+
+On your command Prompt you will see a number
+
+Go to localhost:{} Instead of putting {} put the number that u get
+
+**INFO**
+
+Usually the NUmber will be 5000
+
+**ERROR HANDLING WITH HOSTS**
+
+If it goes to another website, go to HoneyComb's Server.py and in App.run change the Port to another number ( The Number You will see in the Command Prompt ) 
+
+To change in do this : **Port = {number}** : where nuumber is the port number you want
+
+**Short Cut for LocalHost**
+
+What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Control + Click @TODO Aaronhma: Find it for Linux
+
+@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
+
+**Website**
+
+
+**TADA** You will see the website.
 
 @TODO(aaronhma): figure out a way to access firebolt internal
 
@@ -44,7 +76,7 @@ Please check your assignments and grades in ASSIGNMENTS.md
 | Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
-| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
+| SkyHawk      | ![Build Failing](./svg/build/running.svg) | aaronhma, rohan | Building.....     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 
