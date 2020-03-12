@@ -1,0 +1,1 @@
+# The Hardest Stage, Stage 3
