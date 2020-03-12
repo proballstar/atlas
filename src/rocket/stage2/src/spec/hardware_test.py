@@ -51,8 +51,7 @@ def test():
         lc = input("Would you like to see all the last checked time? (Y/n)")
         
         if lc != 'Y' or 'y':
-            # @TODO(aaronhma or rohan): UPDATE
-            print()
+            print(spec_ram)
         
         else:
             pass
