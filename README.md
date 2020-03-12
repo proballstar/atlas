@@ -20,15 +20,15 @@ We chose to build Atlas not because it is easy, but because it is hard.
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Atlas Status
-| Component    | Status           | Main Contributer  |  Sub Contributer |   Remarks  | 
-| ------------ |   -------------  | -----         | ----     | ---- |
-| Stage 1      | ![Build Passing](./svg/build/passing.svg) | aaronhma | None | Passed.     |
-| Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | None | Failed.     |
-| Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | None | Failed.     |
-| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | None | Passed.     |
-| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | rohan | Patent Owner: aaronhma| Failed.     |
-| Skyforce     | ![Build Passing](./svg/build/passing.svg) | rohan | ? Patent Owner: aaronhma | Passed.     |
-| PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan  | None  | Passed.     |
+| Component    | Status           | Submitted By  |  Remarks  |
+| ------------ |   -------------  | -----         | ----      |
+| Stage 1      | ![Build Passing](./svg/build/passing.svg) | aaronhma | Passed.     |
+| Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
+| Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
+| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
+| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
+| Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+| PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
 
