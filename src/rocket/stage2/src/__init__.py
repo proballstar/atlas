@@ -1,11 +1,12 @@
 # @TODO(aaronhma): Step 1: import everything
-from .src import camera
-from .src import service_worker
+from . import camera
+from . import service_worker
 
 # @TODO(aaronhma): Step 2: Declare everything
 ram = [] # Memory storage
 
 # @TODO(aaronhma): Step 3: Enable camera
+camera.camera(mirror_status=True)
 
 # @TODO(aaronhma): Step 4: Setup
 

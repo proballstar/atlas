@@ -9,3 +9,5 @@ def get_atmosphere_temp():
 def test_camera():
     # @TODO(aaronhma): Update
     pass
+
+import src

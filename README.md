@@ -13,10 +13,16 @@ We chose to build Atlas not because it is easy, but because it is hard.
 - Aaron Ma & Rohan Fernandes
 ```
 
+## Alert! Please Read!
+We, Aaron Ma and Rohan Fernandes are preparing a special holiday release for April Fool's Day 2020. Stay tuned for updates!
+
 ## Atlas Info
+@TODO(aaronhma, rohan): Update
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Getting Started Guide
+@TODO(rohan): write docs
+@TODO(aaronhma): figure out a way to access firebolt internal
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Atlas Status
@@ -29,6 +35,8 @@ We chose to build Atlas not because it is easy, but because it is hard.
 | SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
+
+[Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
 
