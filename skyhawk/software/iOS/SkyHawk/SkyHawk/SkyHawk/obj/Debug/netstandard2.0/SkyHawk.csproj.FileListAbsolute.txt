@@ -1,0 +1,13 @@
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\bin\Debug\netstandard2.0\SkyHawk.deps.json
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\bin\Debug\netstandard2.0\SkyHawk.dll
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\bin\Debug\netstandard2.0\ref\SkyHawk.dll
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\bin\Debug\netstandard2.0\SkyHawk.pdb
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\SkyHawk.csprojAssemblyReference.cache
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\SkyHawk.AssemblyInfoInputs.cache
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\SkyHawk.AssemblyInfo.cs
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\SkyHawk.dll
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\ref\SkyHawk.dll
+C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas\SkyHawk\SoftWare\iOS\SkyHawk\SkyHawk\SkyHawk\obj\Debug\netstandard2.0\SkyHawk.pdb
