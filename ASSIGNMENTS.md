@@ -9,7 +9,7 @@ Check assignments and grades here.
 | Stage 3      | src/rocket/stage3/* | aaronhma | 0%     |
 | Honeycomb    | src/onboard/components/honeycomb/* |  rohan   | 6% |
 | SkyHawk      | everything in skyhawk | rohan    | 9%     |
-| Skyforce     | everything in skyforce | rohan    | 5%     |
+| Skyforce     | everything in skyforce | rohan    | 15%     |
 | PTurtle      | everything in pturtle | rohan    | 100%     |
 
 ---
