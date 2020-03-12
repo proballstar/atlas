@@ -1,9 +1,8 @@
 from flask import Flask, render_template, redirect
 import skyforce
 app = Flask(__name__)
-from components import var
 import sqlite3
-
+import requests
 
 
 #@TODO AARON CAN YOU MAKE A FUNCTION in status_code
@@ -56,8 +55,6 @@ def medical():
         # @NOTE this is what happens when people submit the form 
         # @NOTE lets use python for the medical info ( log the info)
         print("")
-    else:
-        print(EnvironmentError"::")
 @app.route('/guidance')
 def guidance():
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system APPROVED
