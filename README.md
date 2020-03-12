@@ -76,7 +76,7 @@ What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Con
 | Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
-| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
+| SkyHawk      | ![Build Failing](./svg/build/running.svg) | aaronhma, rohan | Building.....     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 
