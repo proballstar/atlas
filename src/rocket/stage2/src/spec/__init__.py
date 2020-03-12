@@ -1,0 +1,1 @@
+from . import hardware_test as bit_test
