@@ -26,8 +26,8 @@ We chose to build Atlas not because it is easy, but because it is hard.
 | Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed. |
 | Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed. |
-| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
-| Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma | Passed.     |
+| SkyHawk      | ![Build Failing](./svg/build/running.svg) | rohan | Building |
+| Skyforce     | ![Build Passing](./svg/build/passing.svg) | rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
