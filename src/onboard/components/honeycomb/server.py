@@ -47,7 +47,7 @@ def rocket():
 @app.route('/support')
 def support(): 
     return render_template("support.html")
-@app.route
+@app.route('/medical')
 def medical():
     if request.method == "GET":
         # @NOTE what to do when you are using GET including adding variables
