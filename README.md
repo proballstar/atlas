@@ -26,19 +26,19 @@ Please check your assignments and grades in ASSIGNMENTS.md
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Getting Started Guide
-@TODO(rohan): write docs
+
 **The Docs: For Testing**
 
 To start: Go to the HoneyComb Folder 
-
+```
 Execute Command: **Python** Server.py 
-
+```
 This starts the Server
 
 On your command Prompt you will see a number
-
+```
 Go to localhost:{} Instead of putting {} put the number that u get
-
+```
 **INFO**
 
 Usually the NUmber will be 5000
@@ -46,12 +46,12 @@ Usually the NUmber will be 5000
 **ERROR HANDLING WITH HOSTS**
 
 If it goes to another website, go to HoneyComb's Server.py and in App.run change the Port to another number ( The Number You will see in the Command Prompt ) 
-
+```
 To change in do this : **Port = {number}** : where nuumber is the port number you want
-
+```
 **Short Cut for LocalHost**
 
-What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Control + Click **Linux**: Control/C + Control/V
+What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**: @TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u he command
 
 @TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
 
