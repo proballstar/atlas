@@ -18,6 +18,8 @@ Licensed under the MIT License
 Helper functions for PiCam on Raspberry Pi 3 B+.
 This file only works on a RPi 3 B+ and compatible devices currently.
 """
+#@TODO: Make it Compatible with Raspberry Pi 0 W
+
 import cv2                              # Import cv2 library
 
 def retrieve_webcam(mirror=False):      # Camera function

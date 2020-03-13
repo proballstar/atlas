@@ -8,10 +8,27 @@ import requests
 #@TODO AARON CAN YOU MAKE A FUNCTION in status_code
 def status_code():
     pass
-#@TODO Aaron replace pass with a function that gets the status quo (Ex. 404, 200,400) call the status code, status_code 
+    
+# COMPLETED@TODO(aaronhma): replace pass with a function that gets the status quo (Ex. 404, 200,400) call the status code, status_code 
 # for get_err, make a function that if error shows it with parsing and set a variable called err with it , replace path with it
-def get_err():
-    pass
+# @TODO(create every possible error)
+def get_err(dev_mode, err):
+    if dev_mode != False:
+        e = err
+        if e == "EnvironmentError":
+            status_code = 100
+        elif e == "AssertionError":
+            status_code = 200
+        elif e == "SyntaxError":
+            status_code = 300
+        else:
+            status_code = 400
+        
+    else:
+        status_code = 900 # @TODO(aaronhma): UPDATE to resilient code
+    
+    return status_code
+    
 #@NOTE  ROHAN ONLY for check_status def ,AARON for status_code
 def check_status(err):
     status_code = int(status_code)
@@ -54,10 +71,11 @@ def medical():
     elif request.method == "POST":
         # @NOTE this is what happens when people submit the form 
         # @NOTE lets use python for the medical info ( log the info)
-        print("")
+        print("POST method called!")
+        
 @app.route('/guidance')
 def guidance():
-    # @NOTE: keep this here to tell astronauts guidance was migrated to another system APPROVED
+    # @NOTE: keep this here to tell astronauts guidance was migrated to another system - APPROVED
     return render_template("migrated/guidance.html")
 @app.route('/games')
 def games_home():

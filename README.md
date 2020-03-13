@@ -60,6 +60,8 @@ What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Con
 
 **TADA** You will see the website.
 
+[If you still get errors contact the honeycomb writer](mailto:rohanf6219@gmail.com)
+
 @TODO(aaronhma): figure out a way to access firebolt internal
 
 ![Loading...](./svg/loader/material.svg) Loading...
