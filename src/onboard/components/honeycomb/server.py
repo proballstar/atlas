@@ -87,8 +87,8 @@ def games_home():
 @app.route('/disney')
 def disney():
     return render_template('disney.html')
-@app.route('/apptv')
-def disney():
+@app.route('/appletv')
+def apptv():
     return render_template('appletv.html')
-app.run()
+app.run(port=3550)
 
