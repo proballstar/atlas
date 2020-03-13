@@ -51,7 +51,7 @@ To change in do this : **Port = {number}** : where nuumber is the port number yo
 
 **Short Cut for LocalHost**
 
-What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Control + Click @TODO Aaronhma: Find it for Linux
+What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Control + Click **Linux**: Control/C + Control/V
 
 @TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
 
