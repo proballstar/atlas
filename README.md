@@ -50,8 +50,10 @@ If it goes to another website, go to HoneyComb's Server.py and in App.run change
 To change in do this : **Port = {number}** : where nuumber is the port number you want
 ```
 **Short Cut for LocalHost**
-
-What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**: @TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u he command
+```
+What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**:
+```
+@TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u he command
 
 @TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
 
@@ -62,7 +64,7 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 
 [If you still get errors contact the honeycomb writer](mailto:rohanf6219@gmail.com)
 
-@TODO(aaronhma): figure out a way to access firebolt internal
+@TODO(aaronhma): figure out a way to access firebolt internal with a login
 
 ![Loading...](./svg/loader/material.svg) Loading...
 
