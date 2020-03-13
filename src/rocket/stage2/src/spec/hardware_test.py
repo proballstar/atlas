@@ -47,11 +47,11 @@ def test():
         print("Yay! Your hardware currently has no radiation.")
         ctime = time.ctime()
         print("Last checked: {}".format(ctime))
-        spec_ram.append(ctime)
+        spec_ram.spec_ram.append(ctime)
         lc = input("Would you like to see all the last checked time? (Y/n)")
         
         if lc != 'Y' or 'y':
-            print(spec_ram)
+            print(spec_ram.spec_ram)
         
         else:
             pass
