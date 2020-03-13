@@ -35,8 +35,7 @@ SkyHawk is a time management app built using Microsoft Xamarin it uses C# to do 
 have very good time agament as there is not sense of time on the ship. SkyHawk helps with Scheduling and is aviable on iOS, Andriod, and UWP ( Universal Windows Platform ). SkyHawk combines Python, and C# 
 
 to create wonderfule and amazing games 
-
-`````
+```
 
 ![Loading...](./svg/loader/material.svg) Loading...
 
