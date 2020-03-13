@@ -3,15 +3,21 @@ import skyforce
 app = Flask(__name__)
 import sqlite3
 import requests
+from requests.api import request
 
 
-#@TODO AARON CAN YOU MAKE A FUNCTION in status_code
+#@TODO AARON CAN YOU MAKE A FUNCTION in status_code that sees if there is an err
 def status_code():
     pass
     
 # COMPLETED@TODO(aaronhma): replace pass with a function that gets the status quo (Ex. 404, 200,400) call the status code, status_code 
 # for get_err, make a function that if error shows it with parsing and set a variable called err with it , replace path with it
 # @TODO(create every possible error)
+# @TODO(aaronhma): put a note for how to pass dev_mode and err
+
+# @NOTE: Only use status_code function IF there is an err . once updated fully be implemented otherwise
+
+
 def get_err(dev_mode, err):
     if dev_mode != False:
         e = err
@@ -30,14 +36,12 @@ def get_err(dev_mode, err):
     return status_code
     
 #@NOTE  ROHAN ONLY for check_status def ,AARON for status_code
-def check_status(err):
-    status_code = int(status_code)
-    if status_code == 404:
-        print(err)
-    # OTHER STATUS CODE
-    elif status_code == 200:
+def check_status(status_code,err):
+    if status_code == 100 or 200 or 300 or 400:
+        print("err",err)
+    else:
         pass
-        return 
+    
     
 
 
@@ -67,7 +71,7 @@ def support():
 def medical():
     if request.method == "GET":
         # @NOTE what to do when you are using GET including adding variables
-         return render_template("Medical.html")
+        return render_template("Medical.html")
     elif request.method == "POST":
         # @NOTE this is what happens when people submit the form 
         # @NOTE lets use python for the medical info ( log the info)
@@ -87,3 +91,4 @@ def disney():
 def disney():
     return render_template('appletv.html')
 app.run()
+
