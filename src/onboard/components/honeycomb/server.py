@@ -62,5 +62,10 @@ def guidance():
 @app.route('/games')
 def games_home():
     return render_template("games/home.html")
-
+@app.route('/disney')
+def disney():
+    return render_template('disney.html')
+@app.route('/apptv')
+def disney():
+    return render_template('appletv.html')
 app.run()
