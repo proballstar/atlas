@@ -7,10 +7,17 @@
              x:Class="SkyHawk.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry Keyboard="Numeric" Placeholder="Phone" />
+        <Entry IsPassword="True"/>
+   
+        <Picker Title:"Priority" >
+            <Picker.Items>
+                <x:String>Easy </x:String>
+                <x:String>Meduim</x:String>
+                <x:String>Hard</x:String>
+            </Picker.Items>
+            
+        </Picker>
     </StackLayout>
 
 </ContentPage>
