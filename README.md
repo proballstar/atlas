@@ -21,24 +21,38 @@ FOR ROHAN & AARON:
 Please check your assignments and grades in ASSIGNMENTS.md
 
 ## Atlas Info
-@TODO(aaronhma, rohan): Update
+@TODO(aaronhma) : Update
+
+
+**Rohan; Atlas Info**
+```
+Atlas is a SpaceShip that travels to the moon. We built it becasue we wanted to help the space industry with its rocket missioin. Now, I made the HoneyComb and SkyHawk Part. HoneyComb is a Website created
+
+to control parts of the SpaceShip as well as provide entertainment.
+
+SkyHawk is a time management app built using Microsoft Xamarin it uses C# to do the CodeBehind and XAML to show the User Interace. SkyHawk was built because onboard atlas people don't
+
+have very good time agament as there is not sense of time on the ship. SkyHawk helps with Scheduling and is aviable on iOS, Andriod, and UWP ( Universal Windows Platform ). SkyHawk combines Python, and C# 
+
+to create wonderfule and amazing games 
+```
 
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Getting Started Guide
-@TODO(rohan): write docs
+
 **The Docs: For Testing**
 
 To start: Go to the HoneyComb Folder 
-
+```
 Execute Command: **Python** Server.py 
-
+```
 This starts the Server
 
 On your command Prompt you will see a number
-
+```
 Go to localhost:{} Instead of putting {} put the number that u get
-
+```
 **INFO**
 
 Usually the NUmber will be 5000
@@ -46,12 +60,14 @@ Usually the NUmber will be 5000
 **ERROR HANDLING WITH HOSTS**
 
 If it goes to another website, go to HoneyComb's Server.py and in App.run change the Port to another number ( The Number You will see in the Command Prompt ) 
-
+```
 To change in do this : **Port = {number}** : where nuumber is the port number you want
-
+```
 **Short Cut for LocalHost**
-
-What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Control + Click **Linux**: Control/C + Control/V
+```
+What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**:
+```
+@TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u he command
 
 @TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
 
@@ -62,7 +78,7 @@ What you can do is copy the link or **Windows**: Control/Alt + Click **Mac** Con
 
 [If you still get errors contact the honeycomb writer](mailto:rohanf6219@gmail.com)
 
-@TODO(aaronhma): figure out a way to access firebolt internal
+@TODO(aaronhma): figure out a way to access firebolt internal with a login
 
 ![Loading...](./svg/loader/material.svg) Loading...
 
