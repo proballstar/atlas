@@ -100,16 +100,16 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 @TODO(aaronhma): create atlas examples
 
 ## Atlas Status
-| Component    | Status           | Submitted By  |  Remarks  |
-| ------------ |   -------------  | -----         | ----      |
-| Stage 1      | ![Build Passing](./svg/build/passing.svg) | aaronhma | Passed.     |
-| Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
-| Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
-| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
+| Component    | Status                                    | Submitted By    |  Remarks    |
+| ------------ |   -------------                           | -----           | ----        |
+| Stage 1  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
+| Stage 2  🎖  | ![Build Failing](./svg/build/failing.svg) | aaronhma        | Failed.     |
+| Stage 3  🎖  | ![Build Failing](./svg/build/failing.svg) | aaronhma        | Failed.     |
+| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
 | SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
-| Skyforce     | ![Build Running](./svg/build/running.svg) | aaronhma, rohan | Running.     |
-| PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
-| Omega | ![Build Running](./svg/build/running.svg) | aaronhma, rohan| Running.|
+| Skyforce     | ![Build Running](./svg/build/running.svg) | aaronhma, rohan | Running.    |
+| PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
+| Omega        | ![Build Running](./svg/build/running.svg) | aaronhma, rohan | Building... |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
 
