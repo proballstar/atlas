@@ -16,9 +16,10 @@ All Rights Reserved.
 Licensed under the MIT License
 
 Helper functions for PiCam on Raspberry Pi 3 B+.
-This file only works on a RPi 3 B+ and compatible devices currently.
+This file only works on a RPi 3 B+ and RPi 2 B+.
 """
-#@TODO: Make it Compatible with Raspberry Pi 0 W
+# Priority Low: @TODO(rohan): Make it compatible with Raspberry Pi 0 W
+# Priority High: @TODO(aaronhma): Make it compatible for new Raspberry Pi 4 on rocket
 
 import cv2                              # Import cv2 library
 
@@ -34,9 +35,9 @@ def retrieve_webcam(mirror=False):      # Camera function
         ret_val, img = cam.read()        # Read the current camera
         if mirror:                       # If mirror is true:
             img = cv2.flip(img, 1)       # Create a mirrored experience
-        else:                            #
+        else:                            # Anything else
             pass                         # Anything else, ignore
-        cv2.imshow('Stage 2 LIVE!', img) # 
+        cv2.imshow('Stage 2 LIVE!', img) # Show the title in window
         if cv2.waitKey(1) == 27:         # Wait until key 27 is pressed
             break                        # Press ESC (key 27) to quit
         else:                            # Anything else

@@ -27,7 +27,7 @@ DEBUG = False
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PROGRAM_NAME = "Atlas"
 VERSION = "1.0.0"
-LICENCE_FILE = os.path.join(BASE_DIR, "licence")
+LICENCE_FILE = os.path.join(BASE_DIR, "LICENSE")
 IMAGES_DIR = os.path.join(BASE_DIR, "assets/")
 IP = "127.0.0.1"
 PORT = "8085"
@@ -98,7 +98,7 @@ PROGRAM_DESCRIPTION = "This is a reimplementation Apollo Guidance Computer (AGC)
 with open(LICENCE_FILE) as f:
     LICENCE = f.readlines()
 LICENCE = "".join(LICENCE)
-SHORT_LICENCE = "Saturn X is under the MIT License, which means you can redistribute it free of any charge."
+SHORT_LICENCE = "Atlas Simulator is under the MIT License, which means you can redistribute it free of any charge."
 
 COPYRIGHT = "(C) 2019 Firebolt, Inc. & Firebolt Space Agency"
 WEBSITE = "https://bitbucket.org/aaronhma/atlas/"

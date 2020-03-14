@@ -3,11 +3,9 @@
 #V 0.0.1 BETA PTURTLE -- MODIFY VERSION FOR PROJECT ATLAS: FAST, FUEL EFFICIENT, THE OFFICAL SPACE ROCKET OF THE FIREBOLT SPACE AGENCY (FSA)
 from turtle import * #getting all functions from Turtle
 import skyforce #import skyforce that is in shared folder
-    
 
-def init():
-    hi = turtle.Pen()
-init()
+hi = turtle.Pen()
+
 def goto(x,y):
     hi.penup()
     hi.goto(x,y)
@@ -59,3 +57,5 @@ def f():
 
     # @NOTE: This file is only for turtle functions, if wanted copy into directory and import into file to use for GUI Purpose, or use for using the function IN SEPERATE FILE. THIS FILE IS ONLY MEANT FOR 
     # @NOTE: TURTLE FUNCTION DEFINITIONS NOTHING ELSE
+
+del hi

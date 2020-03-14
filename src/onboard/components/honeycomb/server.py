@@ -42,9 +42,6 @@ def check_status(status_code,err):
     else:
         pass
     
-    
-
-
 @app.route('/')
 def home():
    return render_template("rocket.html")
@@ -60,13 +57,15 @@ def homepage():
     c8 = "Thruster"
     c9 = "Communications "
     return render_template("home.html",c1 = c1,c2 = c2, c3 = c3, c4 = c4,c5= c5,c6=c6,c7=c7,c8=c8,c9=c9)
+
 @app.route('/rocket')
 def rocket():
- 
     return render_template("rocket.html")
+
 @app.route('/support')
 def support(): 
     return render_template("support.html")
+
 @app.route('/medical')
 def medical():
     if request.method == "GET":
@@ -81,14 +80,20 @@ def medical():
 def guidance():
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system - APPROVED
     return render_template("migrated/guidance.html")
+
 @app.route('/games')
 def games_home():
     return render_template("games/home.html")
+
 @app.route('/disney')
 def disney():
     return render_template('disney.html')
-@app.route('/appletv')
-def apptv():
-    return render_template('appletv.html')
-app.run(port=3550)
 
+@app.route('/appletv')
+def appletv():
+    return render_template('appletv.html')
+
+app.run(port=7777)
+
+# @TODO(aaronhma): Fix this issue:
+# del app

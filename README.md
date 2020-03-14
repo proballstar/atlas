@@ -20,6 +20,9 @@ FOR ROHAN & AARON:
 
 Please check your assignments and grades in ASSIGNMENTS.md
 
+## Atomic Base Info
+**Alert!** Atomic Base is still *unstable*. If Atomic Base crashes, please do not be alarmed. Note that Atomic Base is a side project to simplify Travis CI and building for Atlas and is *not to be used for anything else*.
+
 ## Atlas Info
 @TODO(aaronhma) : Update
 
@@ -56,19 +59,15 @@ Execute Command: **Python** Server.py
 This starts the Server
 
 On your command Prompt you will see a number
-```
-Go to localhost:{} Instead of putting {} put the number that u get
-```
-**INFO**
 
-Usually the NUmber will be 5000
+Go to `localhost:7777`
 
 **ERROR HANDLING WITH HOSTS**
 
-If it goes to another website, go to HoneyComb's Server.py and in App.run change the Port to another number ( The Number You will see in the Command Prompt ) 
-```
-To change in do this : **Port = {number}** : where nuumber is the port number you want
-```
+If it goes to another website, go to HoneyComb's server.py and in app.run change the Port to another number ( The Number You will see in the Command Prompt ) 
+
+To change in do this: `Port = {number}`: where nuumber is the port number you want and then, you can go to `localhost:{number}`
+
 **Short Cut for LocalHost**
 ```
 What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**:
@@ -100,7 +99,7 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 | Stage 2      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
-| SkyHawk      | ![Build Failing](./svg/build/running.svg) | aaronhma, rohan | Building.....     |
+| SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 
