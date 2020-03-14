@@ -101,8 +101,9 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 | Stage 3      | ![Build Failing](./svg/build/failing.svg) | aaronhma | Failed.     |
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
 | SkyHawk      | ![Build Failing](./svg/build/failing.svg) | aaronhma, rohan | Failed.     |
-| Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+| Skyforce     | ![Build Running](./svg/build/running.svg) | aaronhma, rohan | Running.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan    | Passed.     |
+| Omega | ![Build Running](./svg/build/running.svg) | aaronhma, rohan| Running.|
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
 
