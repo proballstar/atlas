@@ -40,7 +40,7 @@ Now Project Omega is about helping with Coronavirus which put the whole earth in
 
 Learning as well as C# This application will create a less concern
 
-The Rocket is made by Aaron H Ma. He used C# and Python for Rocket Functionality
+The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
 ```
 
 ![Loading...](./svg/loader/material.svg) Loading...
