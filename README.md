@@ -35,6 +35,12 @@ SkyHawk is a time management app built using Microsoft Xamarin it uses C# to do 
 have very good time agament as there is not sense of time on the ship. SkyHawk helps with Scheduling and is aviable on iOS, Andriod, and UWP ( Universal Windows Platform ). SkyHawk combines Python, and C# 
 
 to create wonderfule and amazing games 
+
+Now Project Omega is about helping with Coronavirus which put the whole earth in a lockdown. As there were not many Tests and people needed help. Omega helps with Coronavirus Concerns using Python and Machine
+
+Learning as well as C# This application will create a less concern
+
+The Rocket is made by Aaron H Ma. He used C# and Python for Rocket Functionality
 ```
 
 ![Loading...](./svg/loader/material.svg) Loading...
