@@ -8,6 +8,8 @@ def animate():
     for c in itertools.cycle(['|', '/', '-', '\\']):
         if done:
             break
+        else:
+            pass
         sys.stdout.write('\rLOADING ' + c)
         sys.stdout.flush()
         time.sleep(0.1)
