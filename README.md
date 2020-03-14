@@ -12,7 +12,7 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 - Aaron Ma & Rohan Fernandes
 ```
-![Atlas](./images/atlas.jpg)
+![Atlas](./images/moon.jpg)
 
 ## Alert! Please Read!
 We, Aaron Ma and Rohan Fernandes are preparing a special holiday release for April Fool's Day 2020. Stay tuned for updates!
