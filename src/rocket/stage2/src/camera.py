@@ -30,6 +30,7 @@ def retrieve_webcam(mirror=False):      # Camera function
             By default False, but when True,
             mirror is enabled.
     """
+    # problem for pi 4 and 0:
     cam = cv2.VideoCapture(0)            # Create Camera Window
     while True:                          # While the function is called
         ret_val, img = cam.read()        # Read the current camera

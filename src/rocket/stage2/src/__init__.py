@@ -1,4 +1,4 @@
-# @TODO(aaronhma): Step 1: import everything
+# 🎖 @TODO(aaronhma): Step 1: import everything
 from . import config
 from . import camera
 from . import service_worker
@@ -7,13 +7,13 @@ from .trajectory import * as tj
 from .rocket_control import * as rc
 from .rocket_manuevers import * as rm
 
-# @TODO(aaronhma): Step 2: Declare everything
+# 🎖 @TODO(aaronhma): Step 2: Declare everything
 ram = [] # Memory storage
 
-# @TODO(aaronhma): Step 3: Enable camera
+# 🎖 @TODO(aaronhma): Step 3: Enable camera
 camera.camera(mirror_status=True)
 
-# @TODO(aaronhma): Step 4: Setup
+# 🎖 @TODO(aaronhma): Step 4: Setup
 spec.bit_test.test()
 
 # @TODO(aaronhma): Step 5: Calc trajectory
@@ -34,5 +34,5 @@ rm.__TODO__
 # @TODO(aaronhma): Step 10: Remove 2nd stage
 rm.__TODO__
 
-# @TODO(aaronhma): Step 11: Delete 2nd stage RAM
+# 🎖 @TODO(aaronhma): Step 11: Delete 2nd stage RAM
 del ram
