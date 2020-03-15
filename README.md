@@ -67,10 +67,6 @@ Welcome to the wonderful world of Atlas! Atlas is full of easy-to-use features, 
 ```bash
 # This will not work on most Windows or Linux:
 git clone git+https://bitbucket.org/aaronhma/atlas
-
-** If is does nit work** try 
-
-git clone https://[username]@bitbucket.org/aaronhma/atlas where username is your bitbucket username
 ```
 
 2. Install and build Atlas.
@@ -90,13 +86,13 @@ This starts the Server
 
 In your terminal you will see a url
 
-By default, you will go to `127.0.0.1:7777`, unless you changed the port number or the port number is already in use.
+By default, you will go to `localhost:7777`, unless you changed the port number or the port number is already in use.
 
 **ERROR HANDLING WITH HOSTS**
 
 If it goes to another website, go to HoneyComb's server.py and in app.run change the Port to another number 
 
-To change in do this: `Port = {number}`: where nuumber is the port number you want and then, you can go to `127.0.0.1:{number}`
+To change in do this: `Port = {number}`: where nuumber is the port number you want and then, you can go to `localhost:{number}`
 
 **Short Cut for LocalHost**
 
