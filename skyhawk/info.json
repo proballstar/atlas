@@ -1,0 +1,17 @@
+{
+    name="skyhawk";
+    short-name="sk-hawk"
+    description="a platform on board atlas to make time managment"
+    main-language="Python"
+    platforms="web","andriod","iOS"
+    main-author="Rohan Fernandes"
+    Sub-author="aaronhma"
+    lisence="MIT"
+    release-date"TBA"
+    goal="time mgmt"
+    sub-directory="true"
+    onboard="true","atlas"
+    
+
+
+}

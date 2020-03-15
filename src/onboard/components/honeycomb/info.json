@@ -1,0 +1,8 @@
+{
+	"name": "rocket-website",
+	"short-name": "honeycomb",
+	"description": "in-flight rocket controls",
+	"release": "april 1st",
+	"author": "The Atlas Developers",
+	"languages": "python",
+}
