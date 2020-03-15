@@ -13,7 +13,8 @@ We chose to build Atlas not because it is easy, but because it is hard.
 - Aaron Ma & Rohan Fernandes
 ```
 ![Aaron Ma](./svg/signature/aaron.svg)
-@TODO: aaronhma: Make a SVG for ROhan
+![Rohan Fernandes](./svg/signature/rohan.svg)
+
 ![Atlas](./images/moon.jpg)
 
 
