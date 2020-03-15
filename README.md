@@ -70,10 +70,21 @@ git clone git+https://bitbucket.org/aaronhma/atlas
 ```
 
 2. Install and build Atlas.
+```bash
+cd PATH_TO_ATLAS
+bash scripts/install.sh
+bash scripts/build.sh --path-to-honeycomb $PATH_TO_HONEYCOMB
+```
 
 3. Start Atlas server.
+```bash
+bash scripts/atlas.sh start
+```
 
 4. Start Honeycomb by following the Honeycomb Quickstart Guide below, written by the Honeycomb maintainer.
+```
+cd $PATH_TO_HONEYCOMB
+```
 
 ## Honeycomb Quickstart Guide(written by Rohan):
 **The Docs: For Testing**
