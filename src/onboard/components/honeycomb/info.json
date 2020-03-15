@@ -1,11 +1,8 @@
 {
-
-"name": "rocket-website:
-short-name: "honeycomb"
-description: "rocket website and controls"
-release: "april 1st"
-author: "rohan"
-languages: "platform-flask"
-
-
+	"name": "rocket-website",
+	"short-name": "honeycomb",
+	"description": "in-flight rocket controls",
+	"release": "april 1st",
+	"author": "The Atlas Developers",
+	"languages": "python",
 }
