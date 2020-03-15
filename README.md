@@ -13,8 +13,9 @@ We chose to build Atlas not because it is easy, but because it is hard.
 - Aaron Ma & Rohan Fernandes
 ```
 ![Aaron Ma](./svg/signature/aaron.svg)
-
+@TODO: aaronhma: Make a SVG for ROhan
 ![Atlas](./images/moon.jpg)
+
 
 ## Alert! Please Read!
 We, Aaron Ma and Rohan Fernandes are preparing a special holiday release for April Fool's Day 2020. Stay tuned for updates!
