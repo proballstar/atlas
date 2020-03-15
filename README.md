@@ -12,6 +12,8 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 - Aaron Ma & Rohan Fernandes
 ```
+![Aaron Ma](./svg/signature/aaron.svg)
+
 ![Atlas](./images/moon.jpg)
 
 ## Alert! Please Read!
