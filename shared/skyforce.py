@@ -269,4 +269,17 @@ def err_raise(error,notes):
         raise TypeError(notes)
     elif err_raise == "NoneTypeError":
         raise NoneTypeError(Notes)
+
+class Human():
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+  def into(self):
+    print("hi",self.name,'who is ',self.age,'years old')
+  def find_birth_year(self):
+    year = timing.datetime.now().year
+    print(year - (self.age))
+  def talk(self, expression):
+    self.expression = voice
+    print(str(voice))
         
