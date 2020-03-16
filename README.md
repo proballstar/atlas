@@ -1,4 +1,5 @@
 # 🚀 Atlas
+![Atlas](./images/moon.jpg)
 ```
        _______ _                _____ 
     /\|__   __| |        /\    / ____|
@@ -12,10 +13,9 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 - Aaron Ma & Rohan Fernandes
 ```
-![Aaron Ma](./svg/signature/aaron.svg)
-![Rohan Fernandes](./svg/signature/rohan.svg)
 
-![Atlas](./images/moon.jpg)
+
+
 
 
 ## Alert! Please Read!
@@ -144,3 +144,6 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
+
+![Aaron Ma](./svg/signature/aaron.svg)
+![Rohan Fernandes](./svg/signature/rohan.svg)
