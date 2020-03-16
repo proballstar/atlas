@@ -282,4 +282,9 @@ class Human():
   def talk(self, expression):
     self.expression = voice
     print(str(voice))
-        
+
+aaron = Human("Aaron", 11)
+rohan = Human("Rohan", 11)
+
+print(aaron)
+print(rohan)
