@@ -10,7 +10,7 @@ import turtle                  # Turtle library
 import decimal                 # Decimal library
 import requests                 #Requests library
 import colorama                 #Colorama library
-#import flask                    #Flask library
+import flask                    #Flask library
 #from ipywidgets import interact,interactive,fixed 
 #import ipyidgets as widgets
 # Functions
@@ -36,25 +36,15 @@ def timer(time):
         time = time - 1       # countdown
 
 def random(min_num, max_num):
-    min_num = int(input("What is the minumum? ")) # min number
-    max_num = int(input("What is the maximum? ")) # maximum number
     num = rand.randint(min_num, max_num) # select a random number between min - max
     print(num) # print the random #
 
 def floor(num):
     new_num = math.floor(num)
     return new_num
-
-def round(flt):
-    strflt = str(flt)
-    newstrflt = strflt[-1:]
-    intstrflt = int(newstrflt)
-    if (intstrflt >= 5):
-        newflt = floor(flt)
-        newflt = newflt +1
-    else:
-        newflt = floor(flt)
-    print(newflt)
+def ceil(num):
+    integer = math.ceil(num)
+    return num 
 
 def calculator(a,operator,b):
     if (operator == "*" or "multiply"):
@@ -239,7 +229,6 @@ def progress_bar(t):
 
 
 
-#Debugging 
-#I need help how to use Unittest
+def choice(listvar):
+    return rand.choice(listvar) as num
 
-import unittest
