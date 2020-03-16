@@ -6,6 +6,7 @@ from .spec import * as spec
 from .trajectory import * as tj
 from .rocket_control import * as rc
 from .rocket_manuevers import * as rm
+from errors.src import MemoryOverload, OtherError, SensorOverload
 
 # 🎖 @TODO(aaronhma): Step 2: Declare everything
 ram = [] # Memory storage

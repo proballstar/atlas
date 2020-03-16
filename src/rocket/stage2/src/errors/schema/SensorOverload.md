@@ -1,3 +1,7 @@
+---
+name: SensorOverload
+description: A sensor is overloaded.
+---
 # SensorOverload
 Defines a SensorOverload error.
 
