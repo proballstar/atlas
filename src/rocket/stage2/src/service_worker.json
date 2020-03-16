@@ -7,5 +7,32 @@
         "3": "atlas_honeycomb",
         "4": "service_worker_util"
     },
-    "description": "Atlas Stage 2 Service Worker"
+    "description": {
+        "0": "Atlas Stage 1 Service Worker",
+        "1": "Atlas Stage 2 Service Worker",
+        "2": "Atlas Stage 3 Service Worker",
+        "3": "Atlas Honeycomb Service Worker",
+        "4": "Atlas Service Worker Utility"
+    },
+    "available_in_flight": {
+        "0": true,
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": 0.5
+    },
+    "reason": {
+        "0": "Offline access",
+        "1": "Offline access",
+        "2": "Offline access",
+        "3": "Offline access",
+        "4": "Utility module"
+    },
+    "location": {
+        "0": "",
+        "1": "current",
+        "2": "",
+        "3": "",
+        "4": ""
+    }
 }
