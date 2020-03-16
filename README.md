@@ -31,7 +31,6 @@ Please check your assignments and grades in ASSIGNMENTS.md
 ## Atlas Info
 @TODO(aaronhma) : Update
 
-
 **Rohan; Atlas Info**
 ```
 Atlas is a SpaceShip that travels to the moon. We built it becasue we wanted to help the space industry with its rocket missioin.
@@ -60,24 +59,51 @@ The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Getting Started Guide
+Welcome to the wonderful world of Atlas! Atlas is full of easy-to-use features, but you must calibrate Atlas correctly before you take it out for a spin.
 
+🎖 Experimental. It really won't work...
+
+1. Get Atlas.
+```bash
+# This will not work on most Windows or Linux:
+git clone git+https://bitbucket.org/aaronhma/atlas
+```
+
+2. Install and build Atlas.
+```bash
+cd PATH_TO_ATLAS
+bash scripts/install.sh
+bash scripts/build.sh --path-to-honeycomb $PATH_TO_HONEYCOMB
+```
+
+3. Start Atlas server.
+```bash
+bash scripts/atlas.sh start
+```
+
+4. Start Honeycomb by following the Honeycomb Quickstart Guide below, written by the Honeycomb maintainer.
+```
+cd $PATH_TO_HONEYCOMB
+```
+
+## Honeycomb Quickstart Guide(written by Rohan):
 **The Docs: For Testing**
 
 To start: Go to the HoneyComb Folder 
 ```
-Execute Command: python Server.py 
+Execute Command: python server.py 
 ```
 This starts the Server
 
-On your command Prompt you will see a url
+In your terminal you will see a url
 
-Go to `127.0.0.1:7777`
+By default, you will go to `localhost:7777`, unless you changed the port number or the port number is already in use.
 
 **ERROR HANDLING WITH HOSTS**
 
 If it goes to another website, go to HoneyComb's server.py and in app.run change the Port to another number 
 
-To change in do this: `Port = {number}`: where nuumber is the port number you want and then, you can go to `127.0.0.1:{number}`
+To change in do this: `Port = {number}`: where nuumber is the port number you want and then, you can go to `localhost:{number}`
 
 **Short Cut for LocalHost**
 

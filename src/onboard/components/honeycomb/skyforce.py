@@ -10,7 +10,7 @@ import turtle                  # Turtle library
 import decimal                 # Decimal library
 import requests                 #Requests library
 import colorama                 #Colorama library
-import flask                    #Flask library
+#import flask                    #Flask library
 #from ipywidgets import interact,interactive,fixed 
 #import ipyidgets as widgets
 # Functions
