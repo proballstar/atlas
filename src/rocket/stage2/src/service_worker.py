@@ -9,6 +9,6 @@ service_worker = pd.read_json('./service_worker.json') # load the json file
 service_workerx = service_worker.loc[service_worker.short_name == f'atlas_stage2'] # select only stage2 data (#@I thought it was iloc not loc 
 print(service_workerx) # print filtered data
 print("\n\ns") # sep
-print(service_worker.head()) # show all data
-
+print(service_worker.head(#@Do u need to put the number of rows)) # show all data
+## I know some of pandas
 # todo - @TODO(aaronhma, rohan): Make stage 2 offline
