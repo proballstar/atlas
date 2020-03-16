@@ -5,8 +5,8 @@ from turtle import * #getting all functions from Turtle
 import skyforce #import skyforce that is in shared folder
 
 class VRTurtle:
-    def __init__():
-        hi = turtle.Pen()
+    def __init__(hi):
+        self.hi = hi
     def goto(x,y):
         hi.penup()
         hi.goto(x,y)
@@ -54,9 +54,10 @@ class VRTurtle:
         up(5)
         right(90)
         up(5)
-           ` goto(7,7)
+        goto(7,7)
 
-    # @NOTE: This file is only for turtle functions, if wanted copy into directory and import into file to use for GUI Purpose, or use for using the function IN SEPERATE FILE. THIS FILE IS ONLY MEANT FOR 
-    # @NOTE: TURTLE FUNCTION DEFINITIONS NOTHING ELSE
+hi = Pen()
+turtle = VRTurtle(hi)
+turtle.rectangle()
 
 del hi
