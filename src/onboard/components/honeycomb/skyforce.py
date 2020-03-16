@@ -10,7 +10,7 @@ import turtle                  # Turtle library
 import decimal                 # Decimal library
 import requests                 #Requests library
 import colorama                 #Colorama library
-import flask                    #Flask library
+#import flask                    #Flask library
 #from ipywidgets import interact,interactive,fixed 
 #import ipyidgets as widgets
 # Functions
@@ -37,32 +37,30 @@ def timer(time):
 
 def random(min_num, max_num):
     num = rand.randint(min_num, max_num) # select a random number between min - max
-    print(num) # print the random #
+    return num
 
 def floor(num):
-    new_num = math.floor(num)
-    return new_num
+    return math.floor(num)
+
 def ceil(num):
-    integer = math.ceil(num)
-    return num 
+    return math.ceil(num)
 
 def calculator(a,operator,b):
     if (operator == "*" or "multiply"):
-        num = a*b
+        num = a * b
         print(num)
     elif (operator == "/" or "divide"):
-        num = a/b
+        num = a / b
         print(num)
     elif (operator == "-" or "subract"):
         num = a - b
         print(num)
     elif (operator == "+" or "add"):
-        num = a +b
+        num = a + b
         print(num)
     else:
         print("invalid")
 # Xrange
-from math import ceil
 from collections import Sequence, Iterator
 
 class xrange(Sequence):
@@ -226,9 +224,5 @@ def progress_bar(t):
     sleep(0.1)
     print("\n")
 
-
-
-
 def choice(listvar):
-    return rand.choice(listvar) as num
-
+    return rand.choice(listvar)
