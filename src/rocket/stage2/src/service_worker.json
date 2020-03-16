@@ -1,5 +1,11 @@
 {
     "name": "atlas",
-    "short_name": "atlas",
+    "short_name": {
+        "0": "atlas_stage1",
+        "1": "atlas_stage2",
+        "2": "atlas_stage3",
+        "3": "atlas_honeycomb",
+        "4": "service_worker_util"
+    },
     "description": "Atlas Stage 2 Service Worker"
 }
