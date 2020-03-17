@@ -1,4 +1,3 @@
-![Atlas](./images/moon.jpg)
 # 🚀 Atlas
 ```
        _______ _                _____ 
@@ -14,9 +13,11 @@ We chose to build Atlas not because it is easy, but because it is hard.
 - Aaron Ma & Rohan Fernandes
 ```
 
+![Atlas](./images/moon.jpg)
 
+Atlas is an end-to-end open source platform for rockets. It contains a comprehensivre, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
-
+Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
 
 ## Alert! Please Read!
 We, Aaron Ma and Rohan Fernandes are preparing a special holiday release for April Fool's Day 2020. Stay tuned for updates!
@@ -25,11 +26,15 @@ FOR ROHAN & AARON:
 
 Please check your assignments and grades in ASSIGNMENTS.md
 
+FOR ATLAS GROUND CREW:
+
+In the Storage Room, we have provided disinfecting sprays and hand sanitizer. Use hand sanitizer often and use the disinfecting sprays to spray in the Atlas capsule in the morning and evening. Mahalo for your cooperation!
+
 ## Atomic Base Info
 **Alert!** Atomic Base is still *unstable*. If Atomic Base crashes, please do not be alarmed. Note that Atomic Base is a side project to simplify Travis CI and building for Atlas and is *not to be used for anything else*.
 
 ## Atlas Info
-@TODO(aaronhma) : Update
+@TODO(aaronhma): Update
 
 **Rohan; Atlas Info**
 ```
@@ -49,9 +54,7 @@ to create wonderfule and amazing games and it is built with Java and Swift
 
 Now Project Omega is about helping with Coronavirus which put the whole earth in a lockdown. As there were not many Tests and people needed help.
 
-Omega helps with Coronavirus Concerns using Python and Machine
-
-Learning as well as C# This application will create a less concern
+Omega helps with Coronavirus Concerns using Python and Machine Learning as well as C#. This application will hopefully create a less concern.
 
 The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
 ```
@@ -107,11 +110,9 @@ To change in do this: `Port = {number}`: where nuumber is the port number you wa
 
 **Short Cut for LocalHost**
 
-What you can do is copy the link or **Windows**: (on cmd)Crtl + Click or (on git bash) Alt + click **Mac** Control + Click **Linux**:
+What you can do is copy the link or **Windows**: Crtl + Click **Mac** command c + command v **Linux**: control c + control v
 
-@TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u the command
-
-@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine ruhitnning the code
+@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
 
 **Website**
 
