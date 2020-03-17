@@ -107,7 +107,7 @@ To change in do this: `Port = {number}`: where nuumber is the port number you wa
 
 **Short Cut for LocalHost**
 
-What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + Click **Linux**:
+What you can do is copy the link or **Windows**: (on cmd)Crtl + Click or (on git bash) Alt + click **Mac** Control + Click **Linux**:
 
 @TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u the command
 
