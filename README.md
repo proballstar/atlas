@@ -1,5 +1,5 @@
-# 🚀 Atlas
 ![Atlas](./images/moon.jpg)
+# 🚀 Atlas
 ```
        _______ _                _____ 
     /\|__   __| |        /\    / ____|
@@ -111,7 +111,7 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 
 @TODO: Aaron on your linux go to honeycomb and run python server.py then u will see a link to go to. hover over and it will show u the command
 
-@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
+@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine ruhitnning the code
 
 **Website**
 
@@ -144,6 +144,5 @@ What you can do is copy the link or **Windows**: Alt + Click **Mac** Control + C
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
 
 **Combined with mini-projects: Skyforce, PTurtle and more!**
-
 ![Aaron Ma](./svg/signature/aaron.svg)
 ![Rohan Fernandes](./svg/signature/rohan.svg)
