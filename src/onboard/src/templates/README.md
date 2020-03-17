@@ -1,0 +1,1 @@
+# Wide array of rocket template configuration
