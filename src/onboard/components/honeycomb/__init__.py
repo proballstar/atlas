@@ -1,3 +1,3 @@
 from . import components
 from . import medical
-from . import skyforce
+from shared import skyforce

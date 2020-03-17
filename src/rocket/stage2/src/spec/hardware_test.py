@@ -40,7 +40,7 @@ def test():
     test_divide_360_6x     = test_divide_360_6() == 60
     test_multiply_6_90x    = test_multiply_6_90() == 540
     test_subtract_252_464x = test_subtract_252_464() == -210
-    test_wrong_valuex      = test_wrong_value() == 80 #@NOTE: Is it supposed to be like this b/c 34+45 = 79 not 80
+    test_wrong_valuex      = test_wrong_value() == 80
     tests = (test_add_3_7x, test_divide_360_6x, test_multiply_6_90x, test_subtract_252_464x, test_wrong_valuex)
     correct = (True, True, True, True, False)
     if correct == tests:
