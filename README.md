@@ -19,6 +19,42 @@ Atlas is an end-to-end open source platform for rockets. It contains a comprehen
 
 Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
 
+Atlas provides stable Python APIs, along with currently developing C++ binding API. Support for other languages are future plans.
+
+## Versions
+
+*Versions may change at any time, and released marked "🎖" may change at any time, without notice, per descretion at The Atlas Authors.*
+
+**Atlas 0.0.1:**
+
+Atlas 0.0.1, commonly referred to the latest release will be released on April 1, 2020.
+
+**🎖 Atlas 0.0.2:**
+
+Atlas 0.0.2, codenamed Disco Dingo, is planned to be released on June 5, 2020.
+
+**🎖 Atlas 0.0.3:**
+
+Atlas 0.0.3, codenamed Lunar Loggerhead, is planned to be released on December 21, 2020.
+
+**🎖 Atlas 0.1.0:**
+
+Atlas 0.1.0, codenamed Bionic Beaver, is planned to be released on February 28, 2021.
+
+**🎖 Atlas 0.1.1:**
+
+Atlas 0.1.1, codenamed Utopic Unicorn, is planned to be released on August 16, 2021.
+
+**🎖 Atlas 0.1.2:**
+
+Atlas 0.1.2, codenamed Saucy Salamandar, is planned to be released on November 29, 2021.
+
+**🎖 Atlas 0.1.3:**
+
+Atlas 0.1.3, codenamed Wily Werewolf, is planned to be released on April 6, 2022.
+
+🎖 Future Dates Are TBA
+
 ## Alert! Please Read!
 We, Aaron Ma and Rohan Fernandes are preparing a special holiday release for April Fool's Day 2020. Stay tuned for updates!
 
