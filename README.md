@@ -25,15 +25,15 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 
 *Versions may change at any time, and released marked "🎖" may change at any time, without notice, per descretion at The Atlas Authors.*
 
-**Atlas 0.0.1:** **Alpha**
+**Atlas 0.0.1:**
 
 Atlas 0.0.1, commonly referred to the latest release will be released on April 1, 2020.
 
-**🎖 Atlas 0.0.2:** **Beta**
+**🎖 Atlas 0.0.2:**
 
 Atlas 0.0.2, codenamed Disco Dingo, is planned to be released on June 5, 2020.
 
-**🎖 Atlas 0.0.3:** **FSR: First Stable Realease**
+**🎖 Atlas 0.0.3:**
 
 Atlas 0.0.3, codenamed Lunar Loggerhead, is planned to be released on December 21, 2020.
 
