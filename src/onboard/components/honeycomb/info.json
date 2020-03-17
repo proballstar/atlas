@@ -4,5 +4,7 @@
 	"description": "in-flight rocket controls",
 	"release": "april 1st",
 	"author": "The Atlas Developers",
-	"languages": "python",
+	"languages": "python, jinja",
+	"frameworks": "",
+	"libraries": "tensorflow, flask"
 }

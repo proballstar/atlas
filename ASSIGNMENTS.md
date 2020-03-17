@@ -11,7 +11,7 @@ Check assignments and grades here.
 | Rocket  🎖   | src/onboard/*                      | aaronhma        | 2%
 | SkyHawk      | skyhawk/*                          | rohan           | 0%                |
 | Skyforce     | everything in skyforce             | rohan           | 15%               |
-| PTurtle      | everything in pturtle              | rohan           | 100%              |
+| PTurtle      | everything in pturtle              | rohan           | 75%              |
 | Omega        | omega/*                            | aaronhma, rohan | 0%                |
 
 🎖: Priority
