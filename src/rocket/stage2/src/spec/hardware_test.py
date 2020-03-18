@@ -41,6 +41,7 @@ def test():
     test_multiply_6_90x    = test_multiply_6_90() == 540
     test_subtract_252_464x = test_subtract_252_464() == -210
     test_wrong_valuex      = test_wrong_value() == 80
+    
     tests = (test_add_3_7x, test_divide_360_6x, test_multiply_6_90x, test_subtract_252_464x, test_wrong_valuex)
     correct = (True, True, True, True, False)
     if correct == tests:
