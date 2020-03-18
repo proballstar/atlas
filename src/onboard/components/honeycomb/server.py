@@ -1,8 +1,7 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, request
 import sqlite3
-import requests
-from requests.api import request
-import medical
+
+from shared import medical
 
 #@TODO AARON CAN YOU MAKE A FUNCTION in status_code that sees if there is an err
 def status_code(err):

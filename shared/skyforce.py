@@ -1,6 +1,6 @@
-# @TODO: ROHAN, plz update this with skyforce code
+# @TODO(aarohnma): ROHAN, plz update this with skyforce code
 # Project Skyforce -- Aaron Ma & Rohan Fernandes
-#@TODO: AARON should we add any of our modules to pypi
+#@TODO(aaronhma): AARON should we add any of our modules to pypi
 
 # This is a functions area where I will write functions that I will use in my code
 # Importing files
@@ -271,17 +271,17 @@ def err_raise(error,notes):
         raise NoneTypeError(Notes)
 
 class Human():
-  def __init__(self,name,age):
-    self.name = name
-    self.age = age
-  def into(self):
-    print("hi",self.name,'who is ',self.age,'years old')
-  def find_birth_year(self):
-    year = timing.datetime.now().year
-    print(year - (self.age))
-  def talk(self, expression):
-    self.expression = voice
-    print(str(voice))
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def into(self):
+        print("hi",self.name,'who is ',self.age,'years old')
+    def find_birth_year(self):
+        year = timing.datetime.now().year
+        print(year - (self.age))
+    def talk(self, expression):
+        self.expression = voice
+        print(str(voice))
 
 aaron = Human("Aaron", 11)
 rohan = Human("Rohan", 11)
