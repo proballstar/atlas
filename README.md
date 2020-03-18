@@ -24,11 +24,11 @@ Atlas is an end-to-end open source platform for rockets. It contains a comprehen
 
 Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
 
-Atlas provides stable Python APIs, along with currently developing C++ binding API. Support for other languages are future plans. Our ideas for support with other languages are:
+Atlas provides stable Python APIs, along with currently developing C++ binding API.Atlas uses Javascript and CSS binding to create a Visual Apperance for our users.
+ as well as C# to create a great gaming experience. Support for other languages are future plans. Our ideas for support with other languages are:
 
 * Ruby
 * Assembly
-* JavaScript
 * R
 * C
 * TypeScript
@@ -36,10 +36,11 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 * Java
 * Objective-C
 * Swift
+* Storyboard
+* 
 * Scala
 * Rust
 * CoffeeScript
-* CSS(for styling)
 * Perl
 * Kotlin
 * Go
@@ -47,7 +48,6 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 * Julia
 * Fortran
 * ActionScript
-* C#
 * Dart
 * Other (suggest them here -> hi@aaronhma.com)
 
