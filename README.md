@@ -15,19 +15,52 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 ![Atlas](./images/moon.jpg)
 
+Thanks for using soarin' with Atlas!
+
+- ![Aaron Ma](./svg/signature/aaron.svg)
+- ![Rohan Fernandes](./svg/signature/rohan.svg)
+
 Atlas is an end-to-end open source platform for rockets. It contains a comprehensivre, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
 Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
 
-Atlas provides stable Python APIs, along with currently developing C++ binding API, and newly added javascript binding support with JQuery. Support for other languages are future plans.
+Atlas provides stable Python APIs, along with currently developing C++ binding API. Support for other languages are future plans. Our ideas for support with other languages are:
+
+* Ruby
+* Assembly
+* JavaScript
+* R
+* C
+* TypeScript
+* PHP
+* Java
+* Objective-C
+* Swift
+* Scala
+* Rust
+* CoffeeScript
+* CSS(for styling)
+* Perl
+* Kotlin
+* Go
+* Matlab
+* Julia
+* Fortran
+* ActionScript
+* C#
+* Dart
+* Other (suggest them here -> hi@aaronhma.com)
 
 ## Versions
 
 *Versions may change at any time, and released marked "🎖" may change at any time, without notice, per descretion at The Atlas Authors.*
 
-**Atlas 0.0.1 Alpha:**
+**Atlas 0.0.1**
 
-Atlas 0.0.1, commonly referred to the latest release will be released on April 1, 2020.
+Atlas 0.0.1, commonly referred to the Starter Kit will be released on April 1, 2020. This release contains:
+* Code name: Mercury
+* Works: Honeycomb, Rocket basics
+* Actively working on: Python API, C++ API, JavaScript APIs
 
 **🎖 Atlas 0.0.1 Beta:**
 
@@ -71,10 +104,6 @@ In the Storage Room, we have provided disinfecting sprays and hand sanitizer. Us
 **Alert!** Atomic Base is still *unstable*. If Atomic Base crashes, please do not be alarmed. Note that Atomic Base is a side project to simplify Travis CI and building for Atlas and is *not to be used for anything else*.
 
 ## Atlas Info
-@TODO(aaronhma): Update
-
-**Rohan; Atlas Info**
-```
 Atlas is a SpaceShip that travels to the moon. We built it becasue we wanted to help the space industry with its rocket missioin.
 
 Now, I made the HoneyComb and SkyHawk Part. HoneyComb is a Website created
@@ -94,7 +123,6 @@ Now Project Omega is about helping with Coronavirus which put the whole earth in
 Omega helps with Coronavirus Concerns using Python and Machine Learning as well as C#. This application will hopefully create a less concern.
 
 The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
-```
 
 ![Loading...](./svg/loader/material.svg) Loading...
 
@@ -149,8 +177,6 @@ To change in do this: `Port = {number}`: where nuumber is the port number you wa
 
 What you can do is copy the link or **Windows**: Crtl + Click **Mac** command c + command v **Linux**: control c + control v
 
-@TODO: Rohan make docs for OnBoard, Aaron supply OS for machine running the code
-
 **Website**
 
 
@@ -158,14 +184,10 @@ What you can do is copy the link or **Windows**: Crtl + Click **Mac** command c 
 
 [If you still get errors contact the honeycomb writer](mailto:rohanf6219@gmail.com)
 
-@TODO(aaronhma): figure out a way to access firebolt internal with a login
-
 ![Loading...](./svg/loader/material.svg) Loading...
 
 ## Examples
-@TODO(rohan): write docs
-
-@TODO(aaronhma): create atlas examples
+We don't have one yet! :)
 
 ## Atlas Status
 | Component    | Status                                    | Submitted By    |  Remarks    |
@@ -180,7 +202,3 @@ What you can do is copy the link or **Windows**: Crtl + Click **Mac** command c 
 | Omega        | ![Build Running](./svg/build/running.svg) | aaronhma, rohan | Building... |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
-
-**Combined with mini-projects: Skyforce, PTurtle and more!**
-![Aaron Ma](./svg/signature/aaron.svg)
-![Rohan Fernandes](./svg/signature/rohan.svg)
