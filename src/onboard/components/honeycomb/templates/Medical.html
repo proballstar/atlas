@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        $(function () {
+            $("#includedContent").load("navigation.html");
+        });
+    </script>
     <title>Document</title>
 </head>
 <body>
 <h3>Here is the form for submitting a wound</h3>    
 <form method = "POST">
-<p></p><input type= "text" name= "username "><input>
-<input type = "checkbox"name="severely injured"><input>
-<input type = "hidden"><input>
-<input type = "file"><input>
-<input type = "date"><input>
-<input type = "hidden"><input>
-<input type = "reset"><input>
-<input type = "submit"><input>
+
+    <p></p><input type= "text" name= "username "><input>
+    <input type = "checkbox"name="severely injured"><input>
+    <input type = "hidden"><input>
+    <input type = "file"><input>
+    <input type = "date"><input>
+    <input type = "hidden"><input>
+    <input type = "reset"><input>
+    <input type = "submit"><input>
 </form>
 
 </body>
