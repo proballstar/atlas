@@ -41,7 +41,8 @@ Atlas 0.0.3, codenamed Lunar Loggerhead, is planned to be released on December 2
 
 Atlas 0.0.0, codenamed Bionic Beaver, is planned to be released on February 28, 2021.
 
-**🎖 Atlas 0.0.1:**
+**🎖 Atlas 0.0.1:** : Special Release
+
 
 Atlas 0.0.1, codenamed Utopic Unicorn, is planned to be released on August 16, 2021.
 
