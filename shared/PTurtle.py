@@ -9,45 +9,47 @@
 from turtle import * #getting all functions from Turtle
 import skyforce #import skyforce that is in shared folder
 
-class VRTurtle:
+class Turtle:
     def __init__(self,hi):
         self.hi = hi
     def goto(self,x,y):
-        hi.penup()
-        hi.goto(x,y)
-        hi.pendown()
+        self.hi.penup()
+        self.hi.goto(x,y)
+        self.hi.pendown()
     def goto_line(self,x,y):
-        hi.goto(x,y)
+        self.hi.goto(x,y)
     def square(self,s):
         for i in range(4):
-            hi.forward(s)
-            hi.right(90)
+            self.hi.forward(s)
+            self.hi.right(90)
     def rectangle(self,l,w):
         for i in range(2):
-            hi.forward(l)
-            hi.right(90)
-            hi.forward(w)
-            hi.right(90)
+            self.hi.forward(l)
+            self.hi.right(90)
+            self.hi.forward(w)
+            self.hi.right(90)
     def circle(self,r):
-        hi.circle(r)
+        self.hi.circle(r)
     def write(self,w):
-        hi.write(w)
+        self.hi.write(w)
     def shape(self,sides,size):
         for i in range(sides):
-            hi.forward(size)
-            hi.right(360/sides)
-    def part_circle(self,r,d):
-        hi.circle(r,d)
+            self.hi.forward(size)
+            self.hi.right(360/sides)
+    def semicircle(self,r,d):
+        self.hi.circle(r,d)
     def left(self,degree):
-        hi.left(degree)
+        self.hi.left(degree)
     def right(self,degree):
-        hi.right(degree)
+        self.hi.right(degree)
     def diag(self,d):
-        hi.setheading(d)
+        self.hi.setheading(d)
     def up(self,l):
-        hi.forward(l)
+        self.hi.forward(l)
+
 hi = Pen()
-turtle = VRTurtle(hi)
+turtle = Turtle(hi)
 turtle.rectangle()
 
-del hi 
+# @TODO(aaronhma): Figure out a way for this to work:
+del hi
