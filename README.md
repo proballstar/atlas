@@ -195,11 +195,11 @@ We don't have one yet! :)
 | Stage 1  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 2  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 3  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
-| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
-| SkyHawk      | ![Build Failing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+| Honeycomb    | ![Build Passing](./svg/build/running.svg) | rohan           | Building... |
+| SkyHawk      | ![Build Failing](./svg/build/running.svg) | aaronhma, rohan | Building... |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
-| Omega        | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
-| NightSky     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+| Omega        | ![Build Passing](./svg/build/running.svg) | aaronhma, rohan | Building... |
+| NightSky     | ![Build Passing](./svg/build/running.svg) | aaronhma, rohan | Building... |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
