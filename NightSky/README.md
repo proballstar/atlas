@@ -24,9 +24,9 @@ NightSky's Goal is hard to complete
 
 2. Create the Machine "Human" to act on the computer screen
 
-3. Add Main Machine functionatlity 
+3. Add Main Machine functionatlity
 
-4. Add Human Functionality 
+4. Add Human Functionality
 
 5. Add Voice and Movement Controll
 

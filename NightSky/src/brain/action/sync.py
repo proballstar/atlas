@@ -1,0 +1,1 @@
+#Syncronization with fitness and stuff
