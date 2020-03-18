@@ -1,4 +1,4 @@
-import skyforce
+from shared
 import tensorflow as tf
 
 # @NOTE This will be taken and given to the server.py,or it will be import via the file importation with functions
