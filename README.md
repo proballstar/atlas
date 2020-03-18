@@ -24,20 +24,19 @@ Atlas is an end-to-end open source platform for rockets. It contains a comprehen
 
 Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
 
-Atlas provides stable Python APIs, along with currently developing C++ binding API.Atlas uses Javascript and CSS binding to create a Visual Apperance for our users.
- as well as C# to create a great gaming experience. Support for other languages are future plans. Our ideas for support with other languages are:
+Atlas provides stable Python APIs, along with currently developing C++ binding API. Support for other languages are future plans. Our ideas for support with other languages are:
 
 * Ruby
 * Assembly
 * R
 * C
+* JavaScript
 * TypeScript
 * PHP
 * Java
 * Objective-C
 * Swift
-* Storyboard
-* 
+* CSS(for styling)
 * Scala
 * Rust
 * CoffeeScript
@@ -47,6 +46,7 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 * Matlab
 * Julia
 * Fortran
+* C#
 * ActionScript
 * Dart
 * Other (suggest them here -> hi@aaronhma.com)
@@ -195,11 +195,11 @@ We don't have one yet! :)
 | Stage 1  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 2  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 3  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
-| Honeycomb    | ![Build Passing](./svg/build/running.svg) | rohan           | Building... |
-| SkyHawk      | ![Build Failing](./svg/build/running.svg) | aaronhma, rohan | Building... |
+| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
+| SkyHawk      | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
-| Omega        | ![Build Passing](./svg/build/running.svg) | aaronhma, rohan | Building... |
-| NightSky     | ![Build Passing](./svg/build/running.svg) | aaronhma, rohan | Building... |
+| Omega        | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+| NightSky     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
