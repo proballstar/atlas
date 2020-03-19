@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas')
+sys.path.append('../../../../')
 
 from flask import Flask, render_template, redirect, request
 from shared import components
@@ -10,7 +10,6 @@ from shared import error
 
 app = Flask(__name__)
 
-    
 @app.route('/')
 def home():
     return render_template("rocket.html")
