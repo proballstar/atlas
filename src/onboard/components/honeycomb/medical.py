@@ -1,5 +1,3 @@
-from shared import skyforce
-
 import tensorflow as tf #@TODO(aaronhma): Get the Tenserflow to activate
 
 # @NOTE This will be taken and given to the server.py,or it will be import via the file importation with functions
