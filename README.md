@@ -196,7 +196,7 @@ We don't have one yet! :)
 | Stage 1  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 2  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
 | Stage 3  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
-| Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
+| Honeycomb    | ![Build Passing](./svg/build/failing.svg) | rohan           | Failed.     |
 | SkyHawk      | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
