@@ -4,7 +4,7 @@
 
 # This is a functions area where I will write functions that I will use in my code
 # Importing files
-#import unittest
+import unittest
 from collections import Sequence, Iterator
 from math import ceil
 import random as rand          # Random library

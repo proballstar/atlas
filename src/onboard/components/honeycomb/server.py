@@ -1,48 +1,19 @@
+import sys
+sys.path.append(r'C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas')
+
 from flask import Flask, render_template, redirect, request
-import sqlite3
-
+from shared import components
+from shared import Gui
 from shared import medical
-
-#@TODO AARON CAN YOU MAKE A FUNCTION in status_code that sees if there is an err
-def status_code(err):
-    get_err(True, err)
-    
-# COMPLETED@TODO(aaronhma): replace pass with a function that gets the status quo (Ex. 404, 200,400) call the status code, status_code 
-# for get_err, make a function that if error shows it with parsing and set a variable called err with it , replace path with it
-# @TODO(create every possible error)
-# @TODO(aaronhma): put a note for how to pass dev_mode and err
-
-# @NOTE: Only use status_code function IF there is an err . once updated fully be implemented otherwise
+from shared import skyforce
+from shared import error
 
 app = Flask(__name__)
 
-def get_err(dev_mode, err):
-    if dev_mode != False:
-        e = err
-        if e == "EnvironmentError":
-            status_code = 100
-        elif e == "AssertionError":
-            status_code = 200
-        elif e == "SyntaxError":
-            status_code = 300
-        else:
-            status_code = 400
-        
-    else:
-        status_code = 900 # @TODO(aaronhma): UPDATE to resilient code
-    
-    return status_code
-    
-#@NOTE  ROHAN ONLY for check_status def ,AARON for status_code
-def check_status(status_code,err):
-    if status_code == 100 or 200 or 300 or 400:
-        print("err",err)
-    else:
-        pass
     
 @app.route('/')
 def home():
-   return render_template("rocket.html")
+    return render_template("rocket.html")
 
 @app.route('/homepage')
 def homepage():
@@ -59,7 +30,7 @@ def homepage():
 
 @app.route('/rocket')
 def rocket():
-    return render_template("rocket.html")
+    return redirect('/')
 
 @app.route('/support')
 def support(): 
@@ -76,6 +47,7 @@ def medical():
         # @NOTE lets use python for the medical info ( log the info)
         medical.post()
         print("POST method called!")
+        return render_template("Medical.html")
         
 @app.route('/guidance')
 def guidance():
@@ -94,7 +66,6 @@ def disney():
 def appletv():
     return render_template('appletv.html')
 
-app.run(port=7777) # @TODO(rohan): Agree on a port for all users
+app.run(port=7777) 
 
-# @TODO(aaronhma): Fix this issue:
-# del app
+del app

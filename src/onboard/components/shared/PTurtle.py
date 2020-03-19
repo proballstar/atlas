@@ -48,7 +48,7 @@ class Turtle:
         self.hi.forward(l)
 
 hi = Pen()
-turtle = Turtle(hi)
+
 
 # @TODO(aaronhma): Figure out a way for this to work:
 del hi
