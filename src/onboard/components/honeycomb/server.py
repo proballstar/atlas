@@ -66,5 +66,6 @@ def appletv():
     return render_template('appletv.html')
 
 app.run(port=7777) 
-
-del app
+# @TODO(aaronhma): Make this work:
+# @NOTE: this won't work as server issues
+# del app
