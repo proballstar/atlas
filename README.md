@@ -51,6 +51,14 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 * Dart
 * Other (suggest them here -> hi@aaronhma.com)
 
+## Coding Versions
+**The Following are the coding versions used while Coding Python**
+
+**Python**:3.7.6
+<!--@TODO:aaronhma():put the verisons of coding lang. used-->
+
+
+
 ## Versions
 
 *Versions may change at any time, and released marked "🎖" may change at any time, without notice, per descretion at The Atlas Authors.*
