@@ -8,8 +8,9 @@
     font-family: 'Baloo Chettan 2', cursive;
     }
 </style>
-<script>
-    $(function () {
-        $("#includedContent").load("navigation.html");
-    });
-</script>
+{% include "navigation.html" %}
+{% block content %}
+
+
+
+{% endblock %}
