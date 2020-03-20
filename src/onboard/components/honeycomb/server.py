@@ -32,19 +32,29 @@ def homepage():
 
 @app.route('/rocket')
 def rocket():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     return redirect('/')
 
 @app.route('/support')
 def support(): 
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     return render_template("support.html")
 
 @app.route('/medical')
 def medical():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     if request.method == "GET":
+        #@TODO(aaronhma): make err get passed
+        error.error_handler(err)
         # @NOTE what to do when you are using GET including adding variables
         medical.__init__()
         return render_template("Medical.html")
     elif request.method == "POST":
+        #@TODO(aaronhma): make err get passed
+        #error.error_handler(err)
         # @NOTE this is what happens when people submit the form 
         # @NOTE lets use python for the medical info ( log the info)
         medical.post()
@@ -53,19 +63,27 @@ def medical():
         
 @app.route('/guidance')
 def guidance():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     # @NOTE: keep this here to tell astronauts guidance was migrated to another system - APPROVED
     return render_template("migrated/guidance.html")
 
 @app.route('/games')
 def games_home():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     return render_template("games/home.html")
 
 @app.route('/disney')
 def disney():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     return render_template('disney.html')
 
 @app.route('/appletv')
 def appletv():
+    #@TODO(aaronhma): make err get passed
+    #error.error_handler(err)
     return render_template('appletv.html')
 
 app.run(port=7777) 
