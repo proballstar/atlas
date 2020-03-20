@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'C:\Users\Rohan Fernandes\python_bit\Aaron\Progects\atlas')
+sys.path.append('../../../../')
 
 from flask import Flask, render_template, redirect, request
 from shared import components
@@ -69,5 +69,6 @@ def appletv():
     return render_template('appletv.html')
 
 app.run(port=7777) 
-
-del app
+# @TODO(aaronhma): Make this work:
+# @NOTE: this won't work as server issues
+# del app
