@@ -19,3 +19,9 @@ def get_err(dev_mode, err):
 
 def status_code(err):
     get_err(True, err)
+
+def error_handler(err):
+    if err != None:
+        status_code(err)
+    
+

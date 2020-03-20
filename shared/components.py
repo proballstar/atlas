@@ -21,3 +21,5 @@ def var():
     c9 = "Communications"
 
 var()
+
+del var()
