@@ -22,4 +22,3 @@ def var():
 
 var()
 
-del var()
