@@ -65,7 +65,9 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 
 **Atlas 0.0.1**
 
-Atlas 0.0.1, commonly referred to the Starter Kit will be released on April 1, 2020. This release contains:
+Atlas 0.0.1, commonly referred to the Starter Kit will be released on April 20 or Patriots Day as this is a Day to celebrate
+
+American Sucess may be delayed due to the ever growing threat of the COVID-19 Coronavirus, 2020. This release contains:
 
 * Code name: Mercury
 * Works: Honeycomb, Rocket basics
