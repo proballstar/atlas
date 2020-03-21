@@ -69,15 +69,16 @@ Atlas 0.0.1, commonly referred to the Starter Kit will be released on
 April 1, 2020.
 
 **ALERT!**
-American success may be delayed to April 20 or Patriots Day as this is a Day to celebrate American traditions. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
+The release of Atlas has been delayed to April 20 or Patriots Day which is a mark of American Sucess which is part of Atlas's Goal. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
 
 
 This release contains:
 
 * Code name: Mercury
-* Works: Honeycomb, Rocket basic functionality
+* Works: Honeycomb, Rocket basic functionality 0.0.1
 * Actively working on: Python API, C++ API
 * Acknowledgements: This release was couldn't be made without the 💖 & 😀 of Aaron Ma and Rohan Fernandes.
+* APIs from mini projects 
 
 Atlas 0.0.1's logo is stil TBA and under review.
 
