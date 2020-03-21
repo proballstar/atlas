@@ -16,13 +16,14 @@ We chose to build Atlas not because it is easy, but because it is hard.
 ![Atlas](./images/moon.jpg)
 
 Thanks for soarin' with Atlas!
+-
 
-- ![Aaron Ma](./svg/signature/aaron.svg)
-- ![Rohan Fernandes](./svg/signature/rohan.svg)
+![Aaron Ma](./svg/signature/aaron.svg)
+![Rohan Fernandes](./svg/signature/rohan.svg)
 
-Atlas is an end-to-end open source platform for rockets. It contains a comprehensivre, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
+Atlas is an end-to-end open source platform for rockets. It contains a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
-Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes.
+Atlas was originally developed by two middle school students, Aaron Ma and Rohan Fernandes who realized that researchers needed a better way to develop software for rockets.
 
 Atlas provides stable Python APIs, along with currently developing C++ binding API. Support for other languages are future plans. Our ideas for support with other languages are:
 
@@ -52,51 +53,57 @@ Atlas provides stable Python APIs, along with currently developing C++ binding A
 * Other (suggest them here -> hi@aaronhma.com)
 
 ## Coding Versions
-**The Following are the coding versions used while Coding Python**
+If you want a setup to run Atlas code just like us, here's our coding versions used while developing Atlas.
 
-**Python**:3.7.6
-<!--@TODO:aaronhma():put the verisons of coding lang. used-->
+**Python**: 3.7.6 (released on December 30, 2019)
 
-
+**C++**: C++ 14 (released in 2014)
 
 ## Versions
 
 *Versions may change at any time, and released marked "🎖" may change at any time, without notice, per descretion at The Atlas Authors.*
 
-**Atlas 0.0.1**
+**Atlas 0.0.1: Special Holiday Release**
 
-Atlas 0.0.1, commonly referred to the Starter Kit will be released on April 20 or Patriots Day as this is a Day to celebrate
+Atlas 0.0.1, commonly referred to the Starter Kit will be released on
+April 1, 2020.
 
-American Sucess may be delayed due to the ever growing threat of the COVID-19 Coronavirus, 2020. This release contains:
+**ALERT!**
+American success may be delayed to April 20 or Patriots Day as this is a Day to celebrate American traditions. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
+
+
+This release contains:
 
 * Code name: Mercury
-* Works: Honeycomb, Rocket basics
-* Actively working on: Python API, C++ API, JavaScript APIs
+* Works: Honeycomb, Rocket basic functionality
+* Actively working on: Python API, C++ API
+* Acknowledgements: This release was couldn't be made without the 💖 & 😀 of Aaron Ma and Rohan Fernandes.
 
-**🎖 Atlas 0.0.1 Beta:**
+Atlas 0.0.1's logo is stil TBA and under review.
+
+**🎖 Atlas 0.0.2**
 
 Atlas 0.0.2, codenamed Disco Dingo, is planned to be released on June 5, 2020.
 
-**🎖 Atlas 0.0.1 rc0:**
+**🎖 Atlas 0.0.3:**
 
 Atlas 0.0.3, codenamed Lunar Loggerhead, is planned to be released on December 21, 2020.
 
-**🎖 Atlas 0.0.1 rc1:**
+**🎖 Atlas 0.0.4:**
 
-Atlas 0.0.0, codenamed Bionic Beaver, is planned to be released on February 28, 2021.
+Atlas 0.0.4, codenamed Bionic Beaver, is planned to be released on February 28, 2021.
 
-**🎖 Atlas 0.0.1:** : Special Release
+**🎖 Atlas 0.0.5:**
 
+Atlas 0.0.5, codenamed Utopic Unicorn, is planned to be released on August 16, 2021.
 
-Atlas 0.0.1, codenamed Utopic Unicorn, is planned to be released on August 16, 2021.
+**🎖 Atlas 0.0.6:**
 
-**🎖 Atlas 0.0.2:**
+Atlas 0.0.6, codenamed Saucy Salamandar, is planned to be released on November 29, 2021.
 
-Atlas 0.0.2, codenamed Saucy Salamandar, is planned to be released on November 29, 2021.
+**🎖 Atlas 0.0.7:**
 
-**🎖 Atlas 0.0.3:**
-
-Atlas 0.0.3, codenamed Wily Werewolf, is planned to be released on April 6, 2022.
+Atlas 0.0.7, codenamed Wily Werewolf, is planned to be released on April 6, 2022.
 
 🎖 Future Dates Are TBA
 
