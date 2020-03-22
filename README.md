@@ -82,6 +82,8 @@ This release contains:
 
 Atlas 0.0.1's logo is stil TBA and under review.
 
+### Rohan Observation: The Version names are the same as the names of Linux Versions
+
 **🎖 Atlas 0.0.2**
 
 Atlas 0.0.2, codenamed Disco Dingo, is planned to be released on June 5, 2020.
