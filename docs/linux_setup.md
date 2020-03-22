@@ -4,7 +4,7 @@
 ## Install Python Extensions for Running
 @TODO(rohan): Docs for PyExtensions
 ## Install Pip and Configure
-@TODO(aaronhma): Make PyDocs for PIP
+@TODO(aaronhma): Make PyDocs for PIP ( to install Flask  ) 
 
 
 @TODO(aaronhma): installing other things
