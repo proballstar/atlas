@@ -15,11 +15,7 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 ![Atlas](./images/moon.jpg)
 
-Thanks for soarin' with Atlas!
--
 
-![Aaron Ma](./svg/signature/aaron.svg)
-![Rohan Fernandes](./svg/signature/rohan.svg)
 
 Atlas is an end-to-end open source platform for rockets. It contains a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
@@ -224,3 +220,9 @@ We don't have one yet! :)
 | NightSky     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
+
+Thanks for soarin' with Atlas!
+-
+
+![Aaron Ma](./svg/signature/aaron.svg)
+![Rohan Fernandes](./svg/signature/rohan.svg)
