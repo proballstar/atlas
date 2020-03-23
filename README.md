@@ -70,39 +70,37 @@ The release of Atlas has been delayed to April 20 or Patriots Day which is a mar
 
 This release contains:
 
-* Code name: Mercury
-* Works: Honeycomb, Rocket basic functionality 0.0.1
+* Code name: Mars Martian
+* Works: Honeycomb, Rocket basic functionality
 * Actively working on: Python API, C++ API
 * Acknowledgements: This release was couldn't be made without the 💖 & 😀 of Aaron Ma and Rohan Fernandes.
 * APIs from mini projects 
 
 Atlas 0.0.1's logo is stil TBA and under review.
 
-### Rohan Observation: The Version names are the same as the names of Linux Versions
-
 **🎖 Atlas 0.0.2**
 
-Atlas 0.0.2, codenamed Disco Dingo, is planned to be released on June 5, 2020.
+Atlas 0.0.2, codenamed Venus, is planned to be released on June 5, 2020.
 
 **🎖 Atlas 0.0.3:**
 
-Atlas 0.0.3, codenamed Lunar Loggerhead, is planned to be released on December 21, 2020.
+Atlas 0.0.3, codenamed Lunar Unicorn, is planned to be released on December 21, 2020.
 
 **🎖 Atlas 0.0.4:**
 
-Atlas 0.0.4, codenamed Bionic Beaver, is planned to be released on February 28, 2021.
+Atlas 0.0.4, codenamed Bionic Dingo, is planned to be released on February 28, 2021.
 
 **🎖 Atlas 0.0.5:**
 
-Atlas 0.0.5, codenamed Utopic Unicorn, is planned to be released on August 16, 2021.
+Atlas 0.0.5, codenamed Saturn Salamandar, is planned to be released on August 16, 2021.
 
 **🎖 Atlas 0.0.6:**
 
-Atlas 0.0.6, codenamed Saucy Salamandar, is planned to be released on November 29, 2021.
+Atlas 0.0.6, codenamed Mercury, is planned to be released on November 29, 2021.
 
 **🎖 Atlas 0.0.7:**
 
-Atlas 0.0.7, codenamed Wily Werewolf, is planned to be released on April 6, 2022.
+Atlas 0.0.7, codenamed W, is planned to be released on April 6, 2022.
 
 🎖 Future Dates Are TBA
 
