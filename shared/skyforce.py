@@ -1,10 +1,14 @@
-# @TODO(aarohnma): ROHAN, plz update this with skyforce code
-# Project Skyforce -- Aaron Ma & Rohan Fernandes
-#@TODO(aaronhma): AARON should we add any of our modules to pypi
+"""
+Project Skyforce -- Aaron Ma & Rohan Fernandes
+@NOTE(aaronhma): AARON should we add any of our modules to pypi
+Copyright 2020 - Present Rohan Fernandes & Aaron Ma
 
-# This is a functions area where I will write functions that I will use in my code
-# Importing files
-#import unittest
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+"""
 from collections import Sequence, Iterator
 from math import ceil
 import random as rand          # Random library
@@ -43,6 +47,11 @@ def timer(time):
 
 
 def random(min_num, max_num):
+    """
+    Use a random number generator 
+        - give a & b
+    prints a random number
+    """
     min_num = int(input("What is the minumum? "))  # min number
     max_num = int(input("What is the maximum? "))  # maximum number
     # select a random number between min - max
@@ -51,12 +60,18 @@ def random(min_num, max_num):
 
 
 def floor(num):
+    """
+    Give a decimal and it will return the number floored
+    """
     new_num = math.floor(num)
     print("rf", new_num)
     return new_num
 
 
 def round(flt):
+    """
+    Rounds number up or down, depending ONLY on LAST digit
+    """
     strflt = str(flt)
     newstrflt = strflt[-1:]
     intstrflt = int(newstrflt)
@@ -69,6 +84,9 @@ def round(flt):
 
 
 def calculator(a, operator, b):
+    """
+    A calculator function for basic  2 number calculations
+    """
     if (operator == "*" or "multiply"):
         num = a*b
         print(num)
