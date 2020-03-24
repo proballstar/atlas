@@ -271,20 +271,40 @@ def err_raise(error,notes):
         raise NoneTypeError(Notes)
 
 class Human():
-    def __init__(self,name,age):
-        self.name = name
+    def __init__(self,f_name,l_name,age,s_t,status):
+        self.f_name = f_name
+        self.l_name = l_name
+        self.status = status
         self.age = age
-    def into(self):
-        print("hi",self.name,'who is ',self.age,'years old')
+    if s_t != y:
+        break
+    def intro(self):
+        print("hi",self.status,self.f_name,self.l_name,'who is ',self.age,'years old')
     def find_birth_year(self):
         year = timing.datetime.now().year
         print(year - (self.age))
     def talk(self, expression):
         self.expression = voice
-        print(str(voice))
+    def status_check(self):
+        if self.status = creator:
+            pass
+        elif self.status = admin:
+            pass
+        elif self.status = worker:
+            pass
+        elif self.status = captain or leader:
+            pass
+        elif self.status = astro:
+            pass
+        #@TODO(rohan): add more for status
+    
+#@TODO(aaronhma,rohan): find a way to funnel use class Human in server for enabling privleges based on status
+    
 
-aaron = Human("Aaron", 11)
-rohan = Human("Rohan", 11)
 
-print(aaron)
-print(rohan)
+# do this for each astronaut/person who uses this as a record keeper
+aaron = Human("Aaron","Ma",11,y,Creator)
+rohan = Human("Rohan","Fernandes",y,11,Admin)
+
+aaron.intro()
+rohan.intro()
