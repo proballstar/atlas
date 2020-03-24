@@ -289,40 +289,43 @@ def err_raise(error,notes):
         raise NoneTypeError(Notes)
 
 class Human():
-    def __init__(self,f_name,l_name,age,s_t,status):
+    def __init__(self,f_name,l_name,age,status):
         self.f_name = f_name
         self.l_name = l_name
         self.status = status
         self.age = age
-    if s_t != y:
-        break
+    
     def intro(self):
-        print("hi",self.status,self.f_name,self.l_name,'who is ',self.age,'years old')
+        print("Found person: {} {} who is {} years old and works as {} onboard.".format(f_name, l_name, age, status))
+    
     def find_birth_year(self):
         year = timing.datetime.now().year
         print(year - (self.age))
+    
     def talk(self, expression):
-        self.expression = voice
+        pass
+
     def status_check(self):
-        if self.status = creator:
+        if self.status == "administrator":
             pass
-        elif self.status = admin:
+        elif self.status == "mission control":
             pass
-        elif self.status = worker:
+        elif self.status == "commander":
             pass
-        elif self.status = captain or leader:
+        elif self.status == "astronaut":
             pass
-        elif self.status = astro:
-            pass
-        #@TODO(rohan): add more for status
-    
-#@TODO(aaronhma,rohan): find a way to funnel use class Human in server for enabling privleges based on status
-    
+        else:
+            print("[ALERT] I've never seen anything like that before!")
 
-
+    def change_access(self, new_status):
+        old_status = self.status
+        self.status = new_status
+        print("Successfully changed permissions from {} to {}".format(old_status, self.status))
+    
+# RESOLVED - @TODO(aaronhma,rohan): find a way to funnel use class Human in server for enabling privleges based on status
 # do this for each astronaut/person who uses this as a record keeper
-aaron = Human("Aaron","Ma",11,y,Creator)
-rohan = Human("Rohan","Fernandes",y,11,Admin)
+aaron = Human("Aaron","Ma",11,"administrator")
+rohan = Human("Rohan","Fernandes",11,"administrator")
 
 aaron.intro()
 rohan.intro()
