@@ -6,5 +6,7 @@
 * Medical: A Tenserflow based API to measure wounds onboard atlas
 * Components: A python based API used to funnel variables into jinja rendering template
 
+@NOTE: All are currently version 0.0.0 and will be added into pip at stage 0.0.1
+
 ## Trajectory 
 **@TODO(aaronhma):Put Trajectory Info**
