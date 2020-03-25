@@ -1,15 +1,4 @@
-#Functions to render components 
-#Aaron add the functions to render the data for the components file
-#
-#
-#
-#
-#
-#use for components 
-
-# Array to store the components data
-#Components
-def var(): 
+def get_components(): 
     c1 = "Navigation"
     c2 = "Guidiance"
     c3 = "Cooling"
@@ -19,6 +8,3 @@ def var():
     c7 = "Engine"
     c8 = "Thruster"
     c9 = "Communications"
-
-var()
-
