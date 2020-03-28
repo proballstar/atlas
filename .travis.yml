@@ -15,7 +15,8 @@ install:
 # Commands to run tests
 script:
   # @TODO(aaronhma): UPDATE with test scripts
-  - python3 shared/handlers/error.py
+  # - python3 shared/handlers/error.py
+  - python3 --version
   # @TODO(aaronhma, rohan): Setup pytest
   # - pytest
 
