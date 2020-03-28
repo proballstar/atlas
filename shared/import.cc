@@ -1,3 +1,8 @@
+// Copyright 2020 - Present Aaron Ma.
+// All Rights Reserved.
+// This file is part of the Atlas Project.
+// You may not use this file without agreeing
+// to the Atlas license.
 #include <iostream>          // Input/Output stream
 //#include <numpy/npy_math.h>  // Math functions from NumPy
 using namespace std;         // So we don't have to use 'std' every time
