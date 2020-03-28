@@ -15,7 +15,8 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 ![Atlas](./images/moon.jpg)
 
-
+**ALERT!**
+The release of Atlas has been delayed to April 20 or Patriots Day which is a mark of American Sucess which is part of Atlas's Goal. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
 
 Atlas is an end-to-end open source platform for rockets. It contains a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
@@ -63,10 +64,6 @@ If you want a setup to run Atlas code just like us, here's our coding versions u
 
 Atlas 0.0.1, commonly referred to the Starter Kit will be released on
 April 1, 2020.
-
-**ALERT!**
-The release of Atlas has been delayed to April 20 or Patriots Day which is a mark of American Sucess which is part of Atlas's Goal. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
-
 
 This release contains:
 
