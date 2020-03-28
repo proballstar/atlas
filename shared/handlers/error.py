@@ -1,4 +1,4 @@
-def get_err(dev_mode, err):
+def get_err(dev_mode = True, err):
     if dev_mode != False:
         if err == "EnvironmentError":
             status_code = 100

@@ -1,0 +1,31 @@
+# @TODO(aaronhma): Setup tests of C++ code and rocket functionality.
+language: python
+
+# Specify the Python 3 version
+python:
+  - "3.6" # For compatibility reasons.
+  - "3.7" # My Python 3 version.
+  - "3.8" # Latest Python 3 version.
+
+# Installation scripts
+install:
+  # @TODO(aaronhma): Add installation scripts here
+  - python3 --version
+
+# Commands to run tests
+script:
+  # @TODO(aaronhma): UPDATE with test scripts
+  - python3 shared/handlers/error.py
+  # @TODO(aaronhma, rohan): Setup pytest
+  # - pytest
+
+# Setup notifications
+notifications:
+  # Configure email notifications
+  email:
+    - aaronhma@gmail.com   # Aaron's Email
+    - hi@aaronhma.com      # Aaron's Email
+    - rohanf6219@gmail.com # Rohan's Email
+    # @TODO(everyone): Add maintainer email addresses to
+    # notify them of recent Travis CI builds.
+    
