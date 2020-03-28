@@ -17,6 +17,7 @@ We chose to build Atlas not because it is easy, but because it is hard.
 
 ![Atlas](./images/moon.jpg)
 
+![Atlas Rocket Ship](./svg/rocket/rocket.svg)
 **ALERT!**
 The release of Atlas has been delayed to April 20 or Patriots Day which is a mark of American Sucess which is part of Atlas's Goal. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
 
