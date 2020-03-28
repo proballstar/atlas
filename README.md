@@ -1,4 +1,6 @@
 # 🚀 Atlas
+[![Build Status](https://travis-ci.com/firebolt-space/atlas.svg?branch=master)](https://travis-ci.com/firebolt-space/atlas)
+
 ```
        _______ _                _____ 
     /\|__   __| |        /\    / ____|
