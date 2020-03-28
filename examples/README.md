@@ -1,2 +1,3 @@
 # Examples
-## @TODO(aaronhma): Create Examples of Atlas
+## Examples:
+* `lite` - Light-weight version of Atlas
