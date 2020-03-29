@@ -1,1 +1,34 @@
-{}
+{
+"name":"honeycomb",
+"short_name":{
+"0":"Main",
+"1":"Components",
+"2":"AppleTV",
+"3":"Disney"
+},
+ "description":{
+"0":"The Main Honeycomb Module",
+"1":"Main Toggling Switch with all components",
+"2":"Apple TV+",
+"3":"Disney +"
+ },
+
+"in_flight":{
+"0":true, 
+"1":true,
+"2":true,
+"3":true
+},
+"reason":{
+"0":"ofline access",
+"1":"control components",
+"2":"offline access",
+"3":"offline access"
+},
+"location":{
+ "0":"" 
+"1":""
+"2":""
+"3":""
+}
+}
