@@ -21,5 +21,5 @@ class ComancheRack():
         pass
     
     def shutdown(self):
-        
+        del self.name
         del self.wifi
