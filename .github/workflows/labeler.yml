@@ -1,4 +1,5 @@
 name: "Commit Labeler"
+on: [push]
 
 jobs:
   triage:
