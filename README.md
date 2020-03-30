@@ -163,7 +163,7 @@ $ cd /atlas/src/onboard/components/honeycomb/
 $ python3 server.py
 ```
 
-7. Congratulations! You have successfully setup Atlas. You can now proceed to the Atlas Tutorials by clicking [here](https://github.com/firebolt-space/atlas/docs/).
+7. Congratulations! You have successfully setup Atlas. You can now proceed to the Atlas Tutorials by clicking [here](https://github.com/firebolt-space/atlas/tree/master/docs).
 
 ## Examples
 !! COMING SOON !!
