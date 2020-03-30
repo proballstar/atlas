@@ -149,6 +149,7 @@ Welcome to the wonderful world of Atlas! Atlas is full of easy-to-use features, 
 1. Get into the directory where Atlas will be downloaded.
 
 !! MAKE SURE YOU ARE IN THIS DIRECTORY WHEN CLONING ATLAS !!
+** NOTICE: In the future, you won't need to clone Atlas in `/` of your computer. **
 
 ```bash
 cd /
