@@ -1,20 +1,16 @@
-shared:
-  - shared/*
- 
-honeycomb:
-  - src/onboard/components/honeycomb/*
+name: "Commit Labeler" # Setup the name of workflow
+on: [push] # Only label commits
 
-server_rack:
-  - src/onboard/components/server_rack/*
+shared: shared/* # Shared tag
  
-src:
-  - src/*
+honeycomb: src/onboard/components/honeycomb/* # Honeycomb tag
+
+server_rack: src/onboard/components/server_rack/* # Server_rack tag
+
+src: src/* # Src tag
                             
-rocket:
-  - src/rocket/*
+rocket: src/rocket/* # Rocket tag
 
-launch_src:
-  - src/onboard/src/*
+launch_src: src/onboard/src/* # Launch_src tag
 
-bash:
-  - scripts/*
+bash: scripts/* # Bash tag
