@@ -6,8 +6,9 @@ def get_err(dev_mode = True, err):
             status_code = 200
         elif err == "SyntaxError":
             status_code = 300
+        elif err == ""
         else:
-            status_code = 400
+            status_code = 900
 
     else:
         status_code = 900  # @TODO(aaronhma): UPDATE to resilient code
