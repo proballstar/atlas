@@ -1,0 +1,20 @@
+shared:
+  - shared/*
+ 
+honeycomb:
+  - src/onboard/components/honeycomb/*
+
+server_rack:
+  - src/onboard/components/server_rack/*
+ 
+src:
+  - src/*
+                            
+rocket:
+  - src/rocket/*
+
+launch_src:
+  - src/onboard/src/*
+
+bash:
+  - scripts/*
