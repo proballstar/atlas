@@ -19,7 +19,7 @@ We chose to build Atlas not because it is easy, but because it is hard.
 ![Rocket](https://github.com/firebolt-space/atlas/blob/master/svg/rocket/rocket.svg?raw=true)
 
 **ALERT!**
-The release of Atlas has been delayed to April 20 or Patriots Day which is a mark of American Sucess which is part of Atlas's Goal. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
+We're delaying Atlas v0.0.1 to May 25, 2020. The reason we're making this change is due to the ever growing threat of the COVID-19 (Coronavirus Disease 2019), we want to make sure that the public is safe, as your safety is our top priority.
 
 Atlas is an end-to-end open source platform for rockets. It contains a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researcher push state-of-the-art research in rocket science and developers to easily integrate Atlas into their existing rocket codebase.
 
@@ -116,29 +116,6 @@ In the Storage Room, we have provided disinfecting sprays and hand sanitizer. Us
 
 ## Atomic Base Info
 **Alert!** Atomic Base is still *unstable*. If Atomic Base crashes, please do not be alarmed. Note that Atomic Base is a side project to simplify Travis CI and building for Atlas and is *not to be used for anything else*.
-
-## Atlas Info
-Atlas is a SpaceShip that travels to the moon. We built it becasue we wanted to help the space industry with its rocket missioin.
-
-Now, I made the HoneyComb and SkyHawk Part. HoneyComb is a Website created
-
-to control parts of the SpaceShip as well as provide entertainment.
-
-SkyHawk is a time management app built using Microsoft Xamarin it uses C# to do the CodeBehind and XAML to show the User Interace.
-
-SkyHawk was built because onboard atlas people don't
-
-have very good time agament as there is not sense of time on the ship.  SkyHawk combines Python, and C# 
-
-to create wonderfule and amazing games and it is built with Java and Swift 
-
-Now Project Omega is about helping with Coronavirus which put the whole earth in a lockdown. As there were not many Tests and people needed help.
-
-Omega helps with Coronavirus Concerns using Python and Machine Learning as well as C#. This application will hopefully create a less concern.
-
-The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
-
-![Loading...](./svg/loader/material.svg) Loading...
 
 ## Getting Started Guide
 Welcome to the wonderful world of Atlas! Atlas is full of easy-to-use features, but you must calibrate Atlas correctly before you take it out for a spin.
