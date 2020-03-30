@@ -66,8 +66,7 @@ If you want a setup to run Atlas code just like us, here's our coding versions u
 
 **Atlas 0.0.1: Special Holiday Release**
 
-Atlas 0.0.1, commonly referred to the Starter Kit will be released on
-April 1, 2020.
+Atlas 0.0.1, commonly referred to the Starter Kit will be released on April 1, 2020.
 
 This release contains:
 
