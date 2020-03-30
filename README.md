@@ -209,15 +209,25 @@ We don't have one yet! :)
 
 ## Atlas Status
 | Component    | Status                                    | Submitted By    |  Remarks    |
+
 | ------------ |   -------------                           | -----           | ----        |
+
 | Stage 1  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
+
 | Stage 2  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
+
 | Stage 3  🎖  | ![Build Passing](./svg/build/passing.svg) | aaronhma        | Passed.     |
+
 | Honeycomb    | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
+
 | SkyHawk      | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+
 | Skyforce     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+
 | PTurtle      | ![Build Passing](./svg/build/passing.svg) | rohan           | Passed.     |
+
 | Omega        | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
+
 | NightSky     | ![Build Passing](./svg/build/passing.svg) | aaronhma, rohan | Passed.     |
 
 [Information not correct? Contact maintainer to correct](mailto:hi@aaronhma.com)
