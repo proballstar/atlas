@@ -144,32 +144,39 @@ The Rocket is made by Aaron Ma. He used C++ and Python for Rocket Functionality
 ## Getting Started Guide
 Welcome to the wonderful world of Atlas! Atlas is full of easy-to-use features, but you must calibrate Atlas correctly before you take it out for a spin.
 
-🎖 Experimental. It really won't work...
+🎖 Stable Release:
 
-1. Get Atlas.
+1. Get into the directory where Atlas will be downloaded.
+
+!! MAKE SURE YOU ARE IN THIS DIRECTORY WHEN CLONING ATLAS !!
+
 ```bash
-# This will not work on most Windows or Linux:
-git clone git+https://bitbucket.org/aaronhma/atlas
+cd /
 ```
 
-2. Install and build Atlas.
+2. Get Atlas.
 ```bash
-cd PATH_TO_ATLAS
+git clone https://github.com/firebolt-space/atlas.git
+```
+
+3. Install and build Atlas.
+```bash
+cd $PATH_TO_ATLAS
 bash scripts/install.sh
 bash scripts/build.sh --path-to-honeycomb $PATH_TO_HONEYCOMB
 ```
 
-3. Start Atlas server.
+4. Start Atlas server.
 ```bash
 bash scripts/atlas.sh start
 ```
 
-4. Start Honeycomb by following the Honeycomb Quickstart Guide below, written by the Honeycomb maintainer.
+5. Start Honeycomb by following the Honeycomb Quickstart Guide below, written by the Honeycomb maintainer.
 ```
 cd $PATH_TO_HONEYCOMB
 ```
 
-## Honeycomb Quickstart Guide(written by Rohan):
+## Honeycomb Quickstart Guide(written by Rohan, Honeycomb Maintainer):
 **The Docs: For Testing**
 
 To start: Go to the HoneyComb Folder 
