@@ -7,10 +7,15 @@ python:
   - "3.7" # My Python 3 version.
   - "3.8" # Latest Python 3 version.
 
+# Before installation happens
+before_install:
+  # @TODO(aaronhma): UPDATE
+  - python3 --version
+
 # Installation scripts
 install:
   # @TODO(aaronhma): Add installation scripts here
-  - python3 --version
+  - pip3 install -r requirements.txt # Install from user-defined packages
 
 # Commands to run tests
 script:
