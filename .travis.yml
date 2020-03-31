@@ -1,5 +1,9 @@
 # @TODO(aaronhma): Setup tests of C++ code and rocket functionality.
 language: python
+group: travis_latest # Get the latest travis group
+os: linux # Use Linux for testing
+
+# @TODO(aaronhma): ? Use a GPU ?
 
 # Specify the Python 3 version
 python:
