@@ -3,9 +3,9 @@ pandas==1.0.3
 tensorflow==2.2.0rc2
 flask #latest version of flask
 #turtle
-decimal                
-requests  
-colorama 
-collections
+#decimal                
+#requests  
+#colorama 
+#collections
 # @TODO(aaronhma, proballstar): UPDATE with more installation scripts
 # Aaron, do I need to ask it to install dependencies
