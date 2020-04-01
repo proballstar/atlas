@@ -1,0 +1,56 @@
+.qp-circular-loader {
+    width:16px; 
+    height:16px;
+  }
+  .qp-circular-loader-path {
+    stroke-dasharray: 32.4;  
+    stroke-dashoffset: 32.4; 
+  }
+  .qp-circular-loader, .qp-circular-loader * {
+    transform-origin: 50% 50%;
+  }
+  @keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+  .qp-circular-loader {
+    animation-duration: 1568.63ms;
+    animation-iteration-count: infinite;
+    animation-name: rotate;
+    animation-timing-function: linear;
+  }
+  @keyframes fillunfill {
+    from {
+      stroke-dashoffset: 32.3;
+    }
+    50% {
+      stroke-dashoffset: 0;
+    }
+    to {
+      stroke-dashoffset: -31.9;
+    }
+  }
+  @keyframes rot {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes colors {
+    from {
+      stroke: #4285f4;
+    }
+    to {
+      stroke: #4285f4;
+    }
+  }
+  .qp-circular-loader-path {
+    animation-duration: 1333ms, 5332ms, 5332ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite, infinite, infinite;
+    animation-name: fillunfill, rot, colors;
+    animation-play-state: running, running, running;
+    animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1), steps(4), linear;
+  }
