@@ -1,9 +1,0 @@
-Aaron, This folder will be updated and atleast partially completed by (4/20) this is to allow me to be able to learn and build up to that 
-
-Progect standard 😊 
-
-Thanks for your understanding,
-
-Rohan Fernandes (Proballstar),
-
-😊
