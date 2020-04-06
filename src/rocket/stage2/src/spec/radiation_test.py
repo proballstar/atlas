@@ -99,4 +99,4 @@ def test():
     else:
         raise Exception("Your hardware has radiation!")
     
-test()
+#test()
