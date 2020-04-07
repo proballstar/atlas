@@ -45,8 +45,36 @@ Helper file for testing if hardware has no radiation.
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-import time
-from . import spec_ram
+try:
+       import time
+
+except ImportError:
+       raise ImportError("Is Python installed correctly?")
+
+try:
+       from . import spec_ram
+
+except ImportError:
+       raise ImportError("Your version of Atlas is corrupt!")
+
+# @TODO(aaronhma): Create generic functions for these
+def add(x, y):
+       """
+       input:
+              - x: int
+              - y: int
+       returns: int
+       """
+       return x + y
+
+def subtract(x, y):
+       return y - x
+
+def multiply(x, y):
+       return x * y
+
+def divide(x, y):
+       retrun y / x
 
 def test_add_3_7():
     return 3 + 7
