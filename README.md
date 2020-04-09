@@ -1,5 +1,6 @@
 # 🚀 Atlas
 [![Build Status](https://travis-ci.com/firebolt-space/atlas.svg?branch=master)](https://travis-ci.com/firebolt-space/atlas)
+![Mark stale issues and pull requests bot.](https://github.com/firebolt-space/atlas/workflows/Mark%20stale%20issues%20and%20pull%20requests%20bot./badge.svg)
 
 ```
        _______ _                _____ 
