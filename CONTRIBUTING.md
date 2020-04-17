@@ -5,3 +5,5 @@ Before contributing to Atlas, you must agree to the Atlas Contributor Agreement:
 * You agree that by contributing to Atlas, you are not endorsing or sponsoring Atlas.
 * You agree that you will follow the Code of Conduct.
 * You agree that your code may be used for commercial purposes.
+* You agree that you may not receive credit for your work.
+* You agree that this may change any time, without notice.
